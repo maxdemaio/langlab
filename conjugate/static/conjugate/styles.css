@@ -1,0 +1,61 @@
+/* Global application footer */
+#footer {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: white;
+}
+
+#footer div {
+    padding: 5px;
+}
+
+
+/* Conjugation application Language link styling */
+.language {
+    font-size: 20px;
+}
+
+.lang-name {
+    margin-right: 5px;
+}
+
+
+/* Conjugation application main content */
+h1 {
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 10px 10px 20px 10px;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+.back-link {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#conj-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#conj-prompt {
+    margin-bottom: 20px;
+}
+
+#conj-form {
+    font-size: 20px;
+}

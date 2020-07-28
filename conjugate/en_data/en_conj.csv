@@ -1,0 +1,2401 @@
+lang_id,verb_id,tense_id,subject_id,conj
+1,1,1,1,am
+1,1,2,1,will be
+1,1,3,1,was
+1,1,4,1,would be
+1,1,5,1,am being
+1,1,6,1,will be being
+1,1,7,1,was being
+1,1,8,1,would be being
+1,1,9,1,have been
+1,1,10,1,will have been
+1,1,11,1,had been
+1,1,12,1,would have been
+1,1,13,1,have been being
+1,1,14,1,will have been being
+1,1,15,1,had been being
+1,1,16,1,would have been being
+1,2,1,1,have
+1,2,2,1,will have
+1,2,3,1,had
+1,2,4,1,would have
+1,2,5,1,am having
+1,2,6,1,will be having
+1,2,7,1,was having
+1,2,8,1,would be having
+1,2,9,1,have had
+1,2,10,1,will have had
+1,2,11,1,had had
+1,2,12,1,would have had
+1,2,13,1,have been having
+1,2,14,1,will have been having
+1,2,15,1,had been having
+1,2,16,1,would have been having
+1,3,1,1,do
+1,3,2,1,will do
+1,3,3,1,did
+1,3,4,1,would do
+1,3,5,1,am doing
+1,3,6,1,will be doing
+1,3,7,1,was doing
+1,3,8,1,would be doing
+1,3,9,1,have done
+1,3,10,1,will have done
+1,3,11,1,had done
+1,3,12,1,would have done
+1,3,13,1,have been doing
+1,3,14,1,will have been doing
+1,3,15,1,had been doing
+1,3,16,1,would have been doing
+1,4,1,1,say
+1,4,2,1,will say
+1,4,3,1,said
+1,4,4,1,would say
+1,4,5,1,am saying
+1,4,6,1,will be saying
+1,4,7,1,was saying
+1,4,8,1,would be saying
+1,4,9,1,have said
+1,4,10,1,will have said
+1,4,11,1,had said
+1,4,12,1,would have said
+1,4,13,1,have been saying
+1,4,14,1,will have been saying
+1,4,15,1,had been saying
+1,4,16,1,would have been saying
+1,5,1,1,get
+1,5,2,1,will get
+1,5,3,1,got
+1,5,4,1,would get
+1,5,5,1,am getting
+1,5,6,1,will be getting
+1,5,7,1,was getting
+1,5,8,1,would be getting
+1,5,9,1,have got
+1,5,10,1,will have got
+1,5,11,1,had got
+1,5,12,1,would have got
+1,5,13,1,have been getting
+1,5,14,1,will have been getting
+1,5,15,1,had been getting
+1,5,16,1,would have been getting
+1,6,1,1,make
+1,6,2,1,will make
+1,6,3,1,made
+1,6,4,1,would make
+1,6,5,1,am making
+1,6,6,1,will be making
+1,6,7,1,was making
+1,6,8,1,would be making
+1,6,9,1,have made
+1,6,10,1,will have made
+1,6,11,1,had made
+1,6,12,1,would have made
+1,6,13,1,have been making
+1,6,14,1,will have been making
+1,6,15,1,had been making
+1,6,16,1,would have been making
+1,7,1,1,go
+1,7,2,1,will go
+1,7,3,1,went
+1,7,4,1,would go
+1,7,5,1,am going
+1,7,6,1,will be going
+1,7,7,1,was going
+1,7,8,1,would be going
+1,7,9,1,have gone
+1,7,10,1,will have gone
+1,7,11,1,had gone
+1,7,12,1,would have gone
+1,7,13,1,have been going
+1,7,14,1,will have been going
+1,7,15,1,had been going
+1,7,16,1,would have been going
+1,8,1,1,know
+1,8,2,1,will know
+1,8,3,1,knew
+1,8,4,1,would know
+1,8,5,1,am knowing
+1,8,6,1,will be knowing
+1,8,7,1,was knowing
+1,8,8,1,would be knowing
+1,8,9,1,have known
+1,8,10,1,will have known
+1,8,11,1,had known
+1,8,12,1,would have known
+1,8,13,1,have been knowing
+1,8,14,1,will have been knowing
+1,8,15,1,had been knowing
+1,8,16,1,would have been knowing
+1,9,1,1,take
+1,9,2,1,will take
+1,9,3,1,took
+1,9,4,1,would take
+1,9,5,1,am taking
+1,9,6,1,will be taking
+1,9,7,1,was taking
+1,9,8,1,would be taking
+1,9,9,1,have taken
+1,9,10,1,will have taken
+1,9,11,1,had taken
+1,9,12,1,would have taken
+1,9,13,1,have been taking
+1,9,14,1,will have been taking
+1,9,15,1,had been taking
+1,9,16,1,would have been taking
+1,10,1,1,see
+1,10,2,1,will see
+1,10,3,1,saw
+1,10,4,1,would see
+1,10,5,1,am seeing
+1,10,6,1,will be seeing
+1,10,7,1,was seeing
+1,10,8,1,would be seeing
+1,10,9,1,have seen
+1,10,10,1,will have seen
+1,10,11,1,had seen
+1,10,12,1,would have seen
+1,10,13,1,have been seeing
+1,10,14,1,will have been seeing
+1,10,15,1,had been seeing
+1,10,16,1,would have been seeing
+1,11,1,1,come
+1,11,2,1,will come
+1,11,3,1,came
+1,11,4,1,would come
+1,11,5,1,am coming
+1,11,6,1,will be coming
+1,11,7,1,was coming
+1,11,8,1,would be coming
+1,11,9,1,have come
+1,11,10,1,will have come
+1,11,11,1,had come
+1,11,12,1,would have come
+1,11,13,1,have been coming
+1,11,14,1,will have been coming
+1,11,15,1,had been coming
+1,11,16,1,would have been coming
+1,12,1,1,think
+1,12,2,1,will think
+1,12,3,1,thought
+1,12,4,1,would think
+1,12,5,1,am thinking
+1,12,6,1,will be thinking
+1,12,7,1,was thinking
+1,12,8,1,would be thinking 
+1,12,9,1,have thought
+1,12,10,1,will have thought
+1,12,11,1,had thought
+1,12,12,1,would have thought
+1,12,13,1,have been thinking
+1,12,14,1,will have been thinking
+1,12,15,1,had been thinking
+1,12,16,1,would have been thinking
+1,13,1,1,look
+1,13,2,1,will look
+1,13,3,1,looked
+1,13,4,1,would look
+1,13,5,1,am looking
+1,13,6,1,will be looking
+1,13,7,1,was looking
+1,13,8,1,would be looking
+1,13,9,1,have looked
+1,13,10,1,will have looked
+1,13,11,1,had looked
+1,13,12,1,would have looked
+1,13,13,1,have been looking
+1,13,14,1,will have been looking
+1,13,15,1,had been looking
+1,13,16,1,would have been looking
+1,14,1,1,want
+1,14,2,1,will want
+1,14,3,1,wanted
+1,14,4,1,would want
+1,14,5,1,am wanting
+1,14,6,1,will be wanting
+1,14,7,1,was wanting
+1,14,8,1,would be wanting 
+1,14,9,1,have wanted
+1,14,10,1,will have wanted
+1,14,11,1,had wanted
+1,14,12,1,would have wanted
+1,14,13,1,have been wanting
+1,14,14,1,will have been wanting
+1,14,15,1,had been wanting
+1,14,16,1,would have been wanting
+1,15,1,1,give
+1,15,2,1,will give
+1,15,3,1,gave
+1,15,4,1,would give
+1,15,5,1,am giving
+1,15,6,1,will be giving
+1,15,7,1,was giving
+1,15,8,1,would be giving
+1,15,9,1,have given
+1,15,10,1,will have given
+1,15,11,1,had given
+1,15,12,1,would have given
+1,15,13,1,have been giving
+1,15,14,1,will have been giving
+1,15,15,1,had been giving
+1,15,16,1,would have been giving
+1,16,1,1,use
+1,16,2,1,will use
+1,16,3,1,used
+1,16,4,1,would use
+1,16,5,1,am using
+1,16,6,1,will be using
+1,16,7,1,was using
+1,16,8,1,would be using
+1,16,9,1,have used
+1,16,10,1,will have used
+1,16,11,1,had used
+1,16,12,1,would have used
+1,16,13,1,have been using
+1,16,14,1,will have been using
+1,16,15,1,had been using
+1,16,16,1,would have been using
+1,17,1,1,find
+1,17,2,1,will find
+1,17,3,1,found
+1,17,4,1,would find
+1,17,5,1,am finding
+1,17,6,1,will be finding
+1,17,7,1,was finding
+1,17,8,1,would be finding
+1,17,9,1,have found
+1,17,10,1,will have found
+1,17,11,1,had found
+1,17,12,1,would have found
+1,17,13,1,have been finding
+1,17,14,1,will have been finding
+1,17,15,1,had been finding
+1,17,16,1,would have been finding
+1,18,1,1,tell
+1,18,2,1,will tell
+1,18,3,1,told
+1,18,4,1,would tell
+1,18,5,1,am telling
+1,18,6,1,will be telling
+1,18,7,1,was telling
+1,18,8,1,would be telling 
+1,18,9,1,have told
+1,18,10,1,will have told
+1,18,11,1,had told
+1,18,12,1,would have told
+1,18,13,1,have been telling
+1,18,14,1,will have been telling
+1,18,15,1,had been telling
+1,18,16,1,would have been telling
+1,19,1,1,ask
+1,19,2,1,will ask
+1,19,3,1,asked
+1,19,4,1,would ask
+1,19,5,1,am asking
+1,19,6,1,will be asking
+1,19,7,1,was asking
+1,19,8,1,would be asking 
+1,19,9,1,have asked
+1,19,10,1,will have asked
+1,19,11,1,had asked
+1,19,12,1,would have asked
+1,19,13,1,have been asking
+1,19,14,1,will have been asking
+1,19,15,1,had been asking
+1,19,16,1,would have been asking
+1,20,1,1,work
+1,20,2,1,will work
+1,20,3,1,worked
+1,20,4,1,would work
+1,20,5,1,am working
+1,20,6,1,will be working
+1,20,7,1,was working
+1,20,8,1,would be working
+1,20,9,1,have worked
+1,20,10,1,will have worked
+1,20,11,1,had worked
+1,20,12,1,would have worked
+1,20,13,1,have been working
+1,20,14,1,will have been working
+1,20,15,1,had been working
+1,20,16,1,would have been working
+1,21,1,1,seem
+1,21,2,1,will seem
+1,21,3,1,seemed
+1,21,4,1,would seem
+1,21,5,1,am seeming
+1,21,6,1,will be seeming
+1,21,7,1,was seeming
+1,21,8,1,would be seeming 
+1,21,9,1,have seemed
+1,21,10,1,will have seemed
+1,21,11,1,had seemed
+1,21,12,1,would have seemed
+1,21,13,1,have been seeming
+1,21,14,1,will have been seeming
+1,21,15,1,had been seeming
+1,21,16,1,would have been seeming
+1,22,1,1,feel
+1,22,2,1,will feel
+1,22,3,1,felt
+1,22,4,1,would feel
+1,22,5,1,am feeling
+1,22,6,1,will be feeling
+1,22,7,1,was feeling
+1,22,8,1,would be feeling
+1,22,9,1,have felt
+1,22,10,1,will have felt
+1,22,11,1,had felt
+1,22,12,1,would have felt
+1,22,13,1,have been feeling
+1,22,14,1,will have been feeling
+1,22,15,1,had been feeling
+1,22,16,1,would have been feeling
+1,23,1,1,try
+1,23,2,1,will try
+1,23,3,1,tried
+1,23,4,1,would try
+1,23,5,1,am trying
+1,23,6,1,will be trying
+1,23,7,1,was trying
+1,23,8,1,would be trying
+1,23,9,1,have tried
+1,23,10,1,will have tried
+1,23,11,1,had tried
+1,23,12,1,would have tried
+1,23,13,1,have been trying
+1,23,14,1,will have been trying
+1,23,15,1,had been trying
+1,23,16,1,would have been trying
+1,24,1,1,leave
+1,24,2,1,will leave
+1,24,3,1,left
+1,24,4,1,would leave
+1,24,5,1,am leaving
+1,24,6,1,will be leaving
+1,24,7,1,was leaving
+1,24,8,1,would be leaving
+1,24,9,1,have left
+1,24,10,1,will have left
+1,24,11,1,had left
+1,24,12,1,would have left
+1,24,13,1,have been leaving
+1,24,14,1,will have been leaving
+1,24,15,1,had been leaving
+1,24,16,1,would have been leaving
+1,25,1,1,call
+1,25,2,1,will call
+1,25,3,1,called
+1,25,4,1,would call
+1,25,5,1,am calling
+1,25,6,1,will be calling
+1,25,7,1,was calling
+1,25,8,1,would be calling
+1,25,9,1,have called
+1,25,10,1,will have called
+1,25,11,1,had called
+1,25,12,1,would have called
+1,25,13,1,have been calling
+1,25,14,1,will have been calling
+1,25,15,1,had been calling
+1,25,16,1,would have been calling
+1,1,1,2,are
+1,1,2,2,will be
+1,1,3,2,was
+1,1,4,2,would be
+1,1,5,2,are being
+1,1,6,2,will be being
+1,1,7,2,were being
+1,1,8,2,would be being
+1,1,9,2,have been
+1,1,10,2,will have been
+1,1,11,2,had been
+1,1,12,2,would have been
+1,1,13,2,have been being
+1,1,14,2,will have been being
+1,1,15,2,had been being
+1,1,16,2,would have been being
+1,2,1,2,have
+1,2,2,2,will have
+1,2,3,2,had
+1,2,4,2,would have
+1,2,5,2,are having
+1,2,6,2,will be having
+1,2,7,2,were having
+1,2,8,2,would be having
+1,2,9,2,have had
+1,2,10,2,will have had
+1,2,11,2,had had
+1,2,12,2,would have had
+1,2,13,2,have been having
+1,2,14,2,will have been having
+1,2,15,2,had been having
+1,2,16,2,would have been having
+1,3,1,2,do
+1,3,2,2,will do
+1,3,3,2,did
+1,3,4,2,would do
+1,3,5,2,are doing
+1,3,6,2,will be doing
+1,3,7,2,were doing
+1,3,8,2,would be doing
+1,3,9,2,have done
+1,3,10,2,will have done
+1,3,11,2,had done
+1,3,12,2,would have done
+1,3,13,2,have been doing
+1,3,14,2,will have been doing
+1,3,15,2,had been doing
+1,3,16,2,would have been doing
+1,4,1,2,say
+1,4,2,2,will say
+1,4,3,2,said
+1,4,4,2,would say
+1,4,5,2,are saying
+1,4,6,2,will be saying
+1,4,7,2,were saying
+1,4,8,2,would be saying
+1,4,9,2,have said
+1,4,10,2,will have said
+1,4,11,2,had said
+1,4,12,2,would have said
+1,4,13,2,have been saying
+1,4,14,2,will have been saying
+1,4,15,2,had been saying
+1,4,16,2,would have been saying
+1,5,1,2,get
+1,5,2,2,will get
+1,5,3,2,got
+1,5,4,2,would get
+1,5,5,2,are getting
+1,5,6,2,will be getting
+1,5,7,2,were getting
+1,5,8,2,would be getting
+1,5,9,2,have got
+1,5,10,2,will have got
+1,5,11,2,had got
+1,5,12,2,would have got
+1,5,13,2,have been getting
+1,5,14,2,will have been getting
+1,5,15,2,had been getting
+1,5,16,2,would have been getting
+1,6,1,2,make
+1,6,2,2,will make
+1,6,3,2,made
+1,6,4,2,would make
+1,6,5,2,are making
+1,6,6,2,will be making
+1,6,7,2,were making
+1,6,8,2,would be making
+1,6,9,2,have made
+1,6,10,2,will have made
+1,6,11,2,had made
+1,6,12,2,would have made
+1,6,13,2,have been making
+1,6,14,2,will have been making
+1,6,15,2,had been making
+1,6,16,2,would have been making
+1,7,1,2,go
+1,7,2,2,will go
+1,7,3,2,went
+1,7,4,2,would go
+1,7,5,2,are going
+1,7,6,2,will be going
+1,7,7,2,were going
+1,7,8,2,would be going
+1,7,9,2,have gone
+1,7,10,2,will have gone
+1,7,11,2,had gone
+1,7,12,2,would have gone
+1,7,13,2,have been going
+1,7,14,2,will have been going
+1,7,15,2,had been going
+1,7,16,2,would have been going
+1,8,1,2,know
+1,8,2,2,will know
+1,8,3,2,knew
+1,8,4,2,would know
+1,8,5,2,are knowing
+1,8,6,2,will be knowing
+1,8,7,2,were knowing
+1,8,8,2,would be knowing
+1,8,9,2,have known
+1,8,10,2,will have known
+1,8,11,2,had known
+1,8,12,2,would have known
+1,8,13,2,have been knowing
+1,8,14,2,will have been knowing
+1,8,15,2,had been knowing
+1,8,16,2,would have been knowing
+1,9,1,2,take
+1,9,2,2,will take
+1,9,3,2,took
+1,9,4,2,would take
+1,9,5,2,are taking
+1,9,6,2,will be taking
+1,9,7,2,were taking
+1,9,8,2,would be taking
+1,9,9,2,have taken
+1,9,10,2,will have taken
+1,9,11,2,had taken
+1,9,12,2,would have taken
+1,9,13,2,have been taking
+1,9,14,2,will have been taking
+1,9,15,2,had been taking
+1,9,16,2,would have been taking
+1,10,1,2,see
+1,10,2,2,will see
+1,10,3,2,saw
+1,10,4,2,would see
+1,10,5,2,are seeing
+1,10,6,2,will be seeing
+1,10,7,2,were seeing
+1,10,8,2,would be seeing
+1,10,9,2,have seen
+1,10,10,2,will have seen
+1,10,11,2,had seen
+1,10,12,2,would have seen
+1,10,13,2,have been seeing
+1,10,14,2,will have been seeing
+1,10,15,2,had been seeing
+1,10,16,2,would have been seeing
+1,11,1,2,come
+1,11,2,2,will come
+1,11,3,2,came
+1,11,4,2,would come
+1,11,5,2,are coming
+1,11,6,2,will be coming
+1,11,7,2,were coming
+1,11,8,2,would be coming
+1,11,9,2,have come
+1,11,10,2,will have come
+1,11,11,2,had come
+1,11,12,2,would have come
+1,11,13,2,have been coming
+1,11,14,2,will have been coming
+1,11,15,2,had been coming
+1,11,16,2,would have been coming
+1,12,1,2,think
+1,12,2,2,will think
+1,12,3,2,thought
+1,12,4,2,would think
+1,12,5,2,are thinking
+1,12,6,2,will be thinking
+1,12,7,2,were thinking
+1,12,8,2,would be thinking
+1,12,9,2,have thought
+1,12,10,2,will have thought
+1,12,11,2,had thought
+1,12,12,2,would have thought
+1,12,13,2,have been thinking
+1,12,14,2,will have been thinking
+1,12,15,2,had been thinking
+1,12,16,2,would have been thinking
+1,13,1,2,look
+1,13,2,2,will look
+1,13,3,2,looked
+1,13,4,2,would look
+1,13,5,2,are looking
+1,13,6,2,will be looking
+1,13,7,2,were looking
+1,13,8,2,would be looking
+1,13,9,2,have looked
+1,13,10,2,will have looked
+1,13,11,2,had looked
+1,13,12,2,would have looked
+1,13,13,2,have been looking
+1,13,14,2,will have been looking
+1,13,15,2,had been looking
+1,13,16,2,would have been looking
+1,14,1,2,want
+1,14,2,2,will want
+1,14,3,2,wanted
+1,14,4,2,would want
+1,14,5,2,are wanting
+1,14,6,2,will be wanting
+1,14,7,2,were wanting
+1,14,8,2,would be wanting
+1,14,9,2,have wanted
+1,14,10,2,will have wanted
+1,14,11,2,had wanted
+1,14,12,2,would have wanted
+1,14,13,2,have been wanting
+1,14,14,2,will have been wanting
+1,14,15,2,had been wanting
+1,14,16,2,would have been wanting
+1,15,1,2,give
+1,15,2,2,will give
+1,15,3,2,gave
+1,15,4,2,would give
+1,15,5,2,are giving
+1,15,6,2,will be giving
+1,15,7,2,were giving
+1,15,8,2,would be giving
+1,15,9,2,have given
+1,15,10,2,will have given
+1,15,11,2,had given
+1,15,12,2,would have given
+1,15,13,2,have been giving
+1,15,14,2,will have been giving
+1,15,15,2,had been giving
+1,15,16,2,would have been giving
+1,16,1,2,use
+1,16,2,2,will use
+1,16,3,2,used
+1,16,4,2,would use
+1,16,5,2,are using
+1,16,6,2,will be using
+1,16,7,2,were using
+1,16,8,2,would be using
+1,16,9,2,have used
+1,16,10,2,will have used
+1,16,11,2,had used
+1,16,12,2,would have used
+1,16,13,2,have been using
+1,16,14,2,will have been using
+1,16,15,2,had been using
+1,16,16,2,would have been using
+1,17,1,2,find
+1,17,2,2,will find
+1,17,3,2,found
+1,17,4,2,would find
+1,17,5,2,are finding
+1,17,6,2,will be finding
+1,17,7,2,were finding
+1,17,8,2,would be finding
+1,17,9,2,have found
+1,17,10,2,will have found
+1,17,11,2,had found
+1,17,12,2,would have found
+1,17,13,2,have been finding
+1,17,14,2,will have been finding
+1,17,15,2,had been finding
+1,17,16,2,would have been finding
+1,18,1,2,tell
+1,18,2,2,will tell
+1,18,3,2,told
+1,18,4,2,would tell
+1,18,5,2,are telling
+1,18,6,2,will be telling
+1,18,7,2,were telling
+1,18,8,2,would be telling
+1,18,9,2,have told
+1,18,10,2,will have told
+1,18,11,2,had told
+1,18,12,2,would have told
+1,18,13,2,have been telling
+1,18,14,2,will have been telling
+1,18,15,2,had been telling
+1,18,16,2,would have been telling
+1,19,1,2,ask
+1,19,2,2,will ask
+1,19,3,2,asked
+1,19,4,2,would ask
+1,19,5,2,are asking
+1,19,6,2,will be asking
+1,19,7,2,were asking
+1,19,8,2,would be asking
+1,19,9,2,have asked
+1,19,10,2,will have asked
+1,19,11,2,had asked
+1,19,12,2,would have asked
+1,19,13,2,have been asking
+1,19,14,2,will have been asking
+1,19,15,2,had been asking
+1,19,16,2,would have been asking
+1,20,1,2,work
+1,20,2,2,will work
+1,20,3,2,worked
+1,20,4,2,would work
+1,20,5,2,are working
+1,20,6,2,will be working
+1,20,7,2,were working
+1,20,8,2,would be working
+1,20,9,2,have worked
+1,20,10,2,will have worked
+1,20,11,2,had worked
+1,20,12,2,would have worked
+1,20,13,2,have been working
+1,20,14,2,will have been working
+1,20,15,2,had been working
+1,20,16,2,would have been working
+1,21,1,2,seem
+1,21,2,2,will seem
+1,21,3,2,seemed
+1,21,4,2,would seem
+1,21,5,2,are seeming
+1,21,6,2,will be seeming
+1,21,7,2,were seeming
+1,21,8,2,would be seeming
+1,21,9,2,have seemed
+1,21,10,2,will have seemed
+1,21,11,2,had seemed
+1,21,12,2,would have seemed
+1,21,13,2,have been seeming
+1,21,14,2,will have been seeming
+1,21,15,2,had been seeming
+1,21,16,2,would have been seeming
+1,22,1,2,feel
+1,22,2,2,will feel
+1,22,3,2,felt
+1,22,4,2,would feel
+1,22,5,2,are feeling
+1,22,6,2,will be feeling
+1,22,7,2,were feeling
+1,22,8,2,would be feeling
+1,22,9,2,have felt
+1,22,10,2,will have felt
+1,22,11,2,had felt
+1,22,12,2,would have felt
+1,22,13,2,have been feeling
+1,22,14,2,will have been feeling
+1,22,15,2,had been feeling
+1,22,16,2,would have been feeling
+1,23,1,2,try
+1,23,2,2,will try
+1,23,3,2,tried
+1,23,4,2,would try
+1,23,5,2,are trying
+1,23,6,2,will be trying
+1,23,7,2,were trying
+1,23,8,2,would be trying
+1,23,9,2,have tried
+1,23,10,2,will have tried
+1,23,11,2,had tried
+1,23,12,2,would have tried
+1,23,13,2,have been trying
+1,23,14,2,will have been trying
+1,23,15,2,had been trying
+1,23,16,2,would have been trying
+1,24,1,2,leave
+1,24,2,2,will leave
+1,24,3,2,left
+1,24,4,2,would leave
+1,24,5,2,are leaving
+1,24,6,2,will be leaving
+1,24,7,2,were leaving
+1,24,8,2,would be leaving
+1,24,9,2,have left
+1,24,10,2,will have left
+1,24,11,2,had left
+1,24,12,2,would have left
+1,24,13,2,have been leaving
+1,24,14,2,will have been leaving
+1,24,15,2,had been leaving
+1,24,16,2,would have been leaving
+1,25,1,2,call
+1,25,2,2,will call
+1,25,3,2,called
+1,25,4,2,would call
+1,25,5,2,are calling
+1,25,6,2,will be calling
+1,25,7,2,were calling
+1,25,8,2,would be calling
+1,25,9,2,have called
+1,25,10,2,will have called
+1,25,11,2,had called
+1,25,12,2,would have called
+1,25,13,2,have been calling
+1,25,14,2,will have been calling
+1,25,15,2,had been calling
+1,25,16,2,would have been calling
+1,1,1,3,is
+1,1,2,3,will be
+1,1,3,3,was
+1,1,4,3,would be
+1,1,5,3,is being
+1,1,6,3,will be being
+1,1,7,3,was being
+1,1,8,3,would be being
+1,1,9,3,has been
+1,1,10,3,will have been
+1,1,11,3,had been
+1,1,12,3,would have been
+1,1,13,3,has been being
+1,1,14,3,will have been being
+1,1,15,3,had been being
+1,1,16,3,would have been being
+1,2,1,3,has
+1,2,2,3,will have
+1,2,3,3,had
+1,2,4,3,would have
+1,2,5,3,is having
+1,2,6,3,will be having
+1,2,7,3,was having
+1,2,8,3,would be having
+1,2,9,3,has had
+1,2,10,3,will have had
+1,2,11,3,had had
+1,2,12,3,would have had
+1,2,13,3,has been having
+1,2,14,3,will have been having
+1,2,15,3,had been having
+1,2,16,3,would have been having
+1,3,1,3,does
+1,3,2,3,will do
+1,3,3,3,did
+1,3,4,3,would do
+1,3,5,3,is doing
+1,3,6,3,will be doing
+1,3,7,3,was doing
+1,3,8,3,would be doing
+1,3,9,3,has done
+1,3,10,3,will have done
+1,3,11,3,had done
+1,3,12,3,would have done
+1,3,13,3,has been doing
+1,3,14,3,will have been doing
+1,3,15,3,had been doing
+1,3,16,3,would have been doing
+1,4,1,3,says
+1,4,2,3,will say
+1,4,3,3,said
+1,4,4,3,would say
+1,4,5,3,is saying
+1,4,6,3,will be saying
+1,4,7,3,was saying
+1,4,8,3,would be saying
+1,4,9,3,has said
+1,4,10,3,will have said
+1,4,11,3,had said
+1,4,12,3,would have said
+1,4,13,3,has been saying
+1,4,14,3,will have been saying
+1,4,15,3,had been saying
+1,4,16,3,would have been saying
+1,5,1,3,gets
+1,5,2,3,will get
+1,5,3,3,got
+1,5,4,3,would get
+1,5,5,3,is getting
+1,5,6,3,will be getting
+1,5,7,3,was getting
+1,5,8,3,would be getting
+1,5,9,3,has got
+1,5,10,3,will have got
+1,5,11,3,had got
+1,5,12,3,would have got
+1,5,13,3,has been getting
+1,5,14,3,will have been getting
+1,5,15,3,had been getting
+1,5,16,3,would have been getting
+1,6,1,3,makes
+1,6,2,3,will make
+1,6,3,3,made
+1,6,4,3,would make
+1,6,5,3,is making
+1,6,6,3,will be making
+1,6,7,3,was making
+1,6,8,3,would be making
+1,6,9,3,has made
+1,6,10,3,will have made
+1,6,11,3,had made
+1,6,12,3,would have made
+1,6,13,3,has been making
+1,6,14,3,will have been making
+1,6,15,3,had been making
+1,6,16,3,would have been making
+1,7,1,3,goes
+1,7,2,3,will go
+1,7,3,3,went
+1,7,4,3,would go
+1,7,5,3,is going
+1,7,6,3,will be going
+1,7,7,3,was going
+1,7,8,3,would be going
+1,7,9,3,has gone
+1,7,10,3,will have gone
+1,7,11,3,had gone
+1,7,12,3,would have gone
+1,7,13,3,has been going
+1,7,14,3,will have been going
+1,7,15,3,had been going
+1,7,16,3,would have been going
+1,8,1,3,knows
+1,8,2,3,will know
+1,8,3,3,knew
+1,8,4,3,would know
+1,8,5,3,is knowing
+1,8,6,3,will be knowing
+1,8,7,3,was knowing
+1,8,8,3,would be knowing
+1,8,9,3,has known
+1,8,10,3,will have known
+1,8,11,3,had known
+1,8,12,3,would have known
+1,8,13,3,has been knowing
+1,8,14,3,will have been knowing
+1,8,15,3,had been knowing
+1,8,16,3,would have been knowing
+1,9,1,3,takes
+1,9,2,3,will take
+1,9,3,3,took
+1,9,4,3,would take
+1,9,5,3,is taking
+1,9,6,3,will be taking
+1,9,7,3,was taking
+1,9,8,3,would be taking
+1,9,9,3,has taken
+1,9,10,3,will have taken
+1,9,11,3,had taken
+1,9,12,3,would have taken
+1,9,13,3,has been taking
+1,9,14,3,will have been taking
+1,9,15,3,had been taking
+1,9,16,3,would have been taking
+1,10,1,3,sees
+1,10,2,3,will see
+1,10,3,3,saw
+1,10,4,3,would see
+1,10,5,3,is seeing
+1,10,6,3,will be seeing
+1,10,7,3,was seeing
+1,10,8,3,would be seeing
+1,10,9,3,has seen
+1,10,10,3,will have seen
+1,10,11,3,had seen
+1,10,12,3,would have seen
+1,10,13,3,has been seeing
+1,10,14,3,will have been seeing
+1,10,15,3,had been seeing
+1,10,16,3,would have been seeing
+1,11,1,3,comes
+1,11,2,3,will come
+1,11,3,3,came
+1,11,4,3,would come
+1,11,5,3,is coming
+1,11,6,3,will be coming
+1,11,7,3,was coming
+1,11,8,3,would be coming
+1,11,9,3,has come
+1,11,10,3,will have come
+1,11,11,3,had come
+1,11,12,3,would have come
+1,11,13,3,has been coming
+1,11,14,3,will have been coming
+1,11,15,3,had been coming
+1,11,16,3,would have been coming
+1,12,1,3,thinks
+1,12,2,3,will think
+1,12,3,3,thought
+1,12,4,3,would think
+1,12,5,3,is thinking
+1,12,6,3,will be thinking
+1,12,7,3,was thinking
+1,12,8,3,would be thinking
+1,12,9,3,has thought
+1,12,10,3,will have thought
+1,12,11,3,had thought
+1,12,12,3,would have thought
+1,12,13,3,has been thinking
+1,12,14,3,will have been thinking
+1,12,15,3,had been thinking
+1,12,16,3,would have been thinking
+1,13,1,3,looks
+1,13,2,3,will look
+1,13,3,3,looked
+1,13,4,3,would look
+1,13,5,3,is looking
+1,13,6,3,will be looking
+1,13,7,3,was looking
+1,13,8,3,would be looking
+1,13,9,3,has looked
+1,13,10,3,will have looked
+1,13,11,3,had looked
+1,13,12,3,would have looked
+1,13,13,3,has been looking
+1,13,14,3,will have been looking
+1,13,15,3,had been looking
+1,13,16,3,would have been looking
+1,14,1,3,wants
+1,14,2,3,will want
+1,14,3,3,wanted
+1,14,4,3,would want
+1,14,5,3,is wanting
+1,14,6,3,will be wanting
+1,14,7,3,was wanting
+1,14,8,3,would be wanting
+1,14,9,3,has wanted
+1,14,10,3,will have wanted
+1,14,11,3,had wanted
+1,14,12,3,would have wanted
+1,14,13,3,has been wanting
+1,14,14,3,will have been wanting
+1,14,15,3,had been wanting
+1,14,16,3,would have been wanting
+1,15,1,3,gives
+1,15,2,3,will give
+1,15,3,3,gave
+1,15,4,3,would give
+1,15,5,3,is giving
+1,15,6,3,will be giving
+1,15,7,3,was giving
+1,15,8,3,would be giving
+1,15,9,3,has given
+1,15,10,3,will have given
+1,15,11,3,had given
+1,15,12,3,would have given
+1,15,13,3,has been giving
+1,15,14,3,will have been giving
+1,15,15,3,had been giving
+1,15,16,3,would have been giving
+1,16,1,3,uses
+1,16,2,3,will use
+1,16,3,3,used
+1,16,4,3,would use
+1,16,5,3,is using
+1,16,6,3,will be using
+1,16,7,3,was using
+1,16,8,3,would be using
+1,16,9,3,has used
+1,16,10,3,will have used
+1,16,11,3,had used
+1,16,12,3,would have used
+1,16,13,3,has been using
+1,16,14,3,will have been using
+1,16,15,3,had been using
+1,16,16,3,would have been using
+1,17,1,3,finds
+1,17,2,3,will find
+1,17,3,3,found
+1,17,4,3,would find
+1,17,5,3,is finding
+1,17,6,3,will be finding
+1,17,7,3,was finding
+1,17,8,3,would be finding
+1,17,9,3,has found
+1,17,10,3,will have found
+1,17,11,3,had found
+1,17,12,3,would have found
+1,17,13,3,has been finding
+1,17,14,3,will have been finding
+1,17,15,3,had been finding
+1,17,16,3,would have been finding
+1,18,1,3,tells
+1,18,2,3,will tell
+1,18,3,3,told
+1,18,4,3,would tell
+1,18,5,3,is telling
+1,18,6,3,will be telling
+1,18,7,3,was telling
+1,18,8,3,would be telling
+1,18,9,3,has told
+1,18,10,3,will have told
+1,18,11,3,had told
+1,18,12,3,would have told
+1,18,13,3,has been telling
+1,18,14,3,will have been telling
+1,18,15,3,had been telling
+1,18,16,3,would have been telling
+1,19,1,3,asks
+1,19,2,3,will ask
+1,19,3,3,asked
+1,19,4,3,would ask
+1,19,5,3,is asking
+1,19,6,3,will be asking
+1,19,7,3,was asking
+1,19,8,3,would be asking
+1,19,9,3,has asked
+1,19,10,3,will have asked
+1,19,11,3,had asked
+1,19,12,3,would have asked
+1,19,13,3,has been asking
+1,19,14,3,will have been asking
+1,19,15,3,had been asking
+1,19,16,3,would have been asking
+1,20,1,3,works
+1,20,2,3,will work
+1,20,3,3,worked
+1,20,4,3,would work
+1,20,5,3,is working
+1,20,6,3,will be working
+1,20,7,3,was working
+1,20,8,3,would be working
+1,20,9,3,has worked
+1,20,10,3,will have worked
+1,20,11,3,had worked
+1,20,12,3,would have worked
+1,20,13,3,has been working
+1,20,14,3,will have been working
+1,20,15,3,had been working
+1,20,16,3,would have been working
+1,21,1,3,seems
+1,21,2,3,will seem
+1,21,3,3,seemed
+1,21,4,3,would seem
+1,21,5,3,is seeming
+1,21,6,3,will be seeming
+1,21,7,3,was seeming
+1,21,8,3,would be seeming
+1,21,9,3,has seemed
+1,21,10,3,will have seemed
+1,21,11,3,had seemed
+1,21,12,3,would have seemed
+1,21,13,3,has been seeming
+1,21,14,3,will have been seeming
+1,21,15,3,had been seeming
+1,21,16,3,would have been seeming
+1,22,1,3,feels
+1,22,2,3,will feel
+1,22,3,3,felt
+1,22,4,3,would feel
+1,22,5,3,is feeling
+1,22,6,3,will be feeling
+1,22,7,3,was feeling
+1,22,8,3,would be feeling
+1,22,9,3,has felt
+1,22,10,3,will have felt
+1,22,11,3,had felt
+1,22,12,3,would have felt
+1,22,13,3,has been feeling
+1,22,14,3,will have been feeling
+1,22,15,3,had been feeling
+1,22,16,3,would have been feeling
+1,23,1,3,tries
+1,23,2,3,will try
+1,23,3,3,tried
+1,23,4,3,would try
+1,23,5,3,is trying
+1,23,6,3,will be trying
+1,23,7,3,was trying
+1,23,8,3,would be trying
+1,23,9,3,has tried
+1,23,10,3,will have tried
+1,23,11,3,had tried
+1,23,12,3,would have tried
+1,23,13,3,has been trying
+1,23,14,3,will have been trying
+1,23,15,3,had been trying
+1,23,16,3,would have been trying
+1,24,1,3,leaves
+1,24,2,3,will leave
+1,24,3,3,left
+1,24,4,3,would leave
+1,24,5,3,is leaving
+1,24,6,3,will be leaving
+1,24,7,3,was leaving
+1,24,8,3,would be leaving
+1,24,9,3,has left
+1,24,10,3,will have left
+1,24,11,3,had left
+1,24,12,3,would have left
+1,24,13,3,has been leaving
+1,24,14,3,will have been leaving
+1,24,15,3,had been leaving
+1,24,16,3,would have been leaving
+1,25,1,3,calls
+1,25,2,3,will call
+1,25,3,3,called
+1,25,4,3,would call
+1,25,5,3,is calling
+1,25,6,3,will be calling
+1,25,7,3,was calling
+1,25,8,3,would be calling
+1,25,9,3,has called
+1,25,10,3,will have called
+1,25,11,3,had called
+1,25,12,3,would have called
+1,25,13,3,has been calling
+1,25,14,3,will have been calling
+1,25,15,3,had been calling
+1,25,16,3,would have been calling
+1,1,1,4,are
+1,1,2,4,will be
+1,1,3,4,was
+1,1,4,4,would be
+1,1,5,4,are being
+1,1,6,4,will be being
+1,1,7,4,were being
+1,1,8,4,would be being
+1,1,9,4,have been
+1,1,10,4,will have been
+1,1,11,4,had been
+1,1,12,4,would have been
+1,1,13,4,have been being
+1,1,14,4,will have been being
+1,1,15,4,had been being
+1,1,16,4,would have been being
+1,2,1,4,have
+1,2,2,4,will have
+1,2,3,4,had
+1,2,4,4,would have
+1,2,5,4,are having
+1,2,6,4,will be having
+1,2,7,4,were having
+1,2,8,4,would be having
+1,2,9,4,have had
+1,2,10,4,will have had
+1,2,11,4,had had
+1,2,12,4,would have had
+1,2,13,4,have been having
+1,2,14,4,will have been having
+1,2,15,4,had been having
+1,2,16,4,would have been having
+1,3,1,4,do
+1,3,2,4,will do
+1,3,3,4,did
+1,3,4,4,would do
+1,3,5,4,are doing
+1,3,6,4,will be doing
+1,3,7,4,were doing
+1,3,8,4,would be doing
+1,3,9,4,have done
+1,3,10,4,will have done
+1,3,11,4,had done
+1,3,12,4,would have done
+1,3,13,4,have been doing
+1,3,14,4,will have been doing
+1,3,15,4,had been doing
+1,3,16,4,would have been doing
+1,4,1,4,say
+1,4,2,4,will say
+1,4,3,4,said
+1,4,4,4,would say
+1,4,5,4,are saying
+1,4,6,4,will be saying
+1,4,7,4,were saying
+1,4,8,4,would be saying
+1,4,9,4,have said
+1,4,10,4,will have said
+1,4,11,4,had said
+1,4,12,4,would have said
+1,4,13,4,have been saying
+1,4,14,4,will have been saying
+1,4,15,4,had been saying
+1,4,16,4,would have been saying
+1,5,1,4,get
+1,5,2,4,will get
+1,5,3,4,got
+1,5,4,4,would get
+1,5,5,4,are getting
+1,5,6,4,will be getting
+1,5,7,4,were getting
+1,5,8,4,would be getting
+1,5,9,4,have got
+1,5,10,4,will have got
+1,5,11,4,had got
+1,5,12,4,would have got
+1,5,13,4,have been getting
+1,5,14,4,will have been getting
+1,5,15,4,had been getting
+1,5,16,4,would have been getting
+1,6,1,4,make
+1,6,2,4,will make
+1,6,3,4,made
+1,6,4,4,would make
+1,6,5,4,are making
+1,6,6,4,will be making
+1,6,7,4,were making
+1,6,8,4,would be making
+1,6,9,4,have made
+1,6,10,4,will have made
+1,6,11,4,had made
+1,6,12,4,would have made
+1,6,13,4,have been making
+1,6,14,4,will have been making
+1,6,15,4,had been making
+1,6,16,4,would have been making
+1,7,1,4,go
+1,7,2,4,will go
+1,7,3,4,went
+1,7,4,4,would go
+1,7,5,4,are going
+1,7,6,4,will be going
+1,7,7,4,were going
+1,7,8,4,would be going
+1,7,9,4,have gone
+1,7,10,4,will have gone
+1,7,11,4,had gone
+1,7,12,4,would have gone
+1,7,13,4,have been going
+1,7,14,4,will have been going
+1,7,15,4,had been going
+1,7,16,4,would have been going
+1,8,1,4,know
+1,8,2,4,will know
+1,8,3,4,knew
+1,8,4,4,would know
+1,8,5,4,are knowing
+1,8,6,4,will be knowing
+1,8,7,4,were knowing
+1,8,8,4,would be knowing
+1,8,9,4,have known
+1,8,10,4,will have known
+1,8,11,4,had known
+1,8,12,4,would have known
+1,8,13,4,have been knowing
+1,8,14,4,will have been knowing
+1,8,15,4,had been knowing
+1,8,16,4,would have been knowing
+1,9,1,4,take
+1,9,2,4,will take
+1,9,3,4,took
+1,9,4,4,would take
+1,9,5,4,are taking
+1,9,6,4,will be taking
+1,9,7,4,were taking
+1,9,8,4,would be taking
+1,9,9,4,have taken
+1,9,10,4,will have taken
+1,9,11,4,had taken
+1,9,12,4,would have taken
+1,9,13,4,have been taking
+1,9,14,4,will have been taking
+1,9,15,4,had been taking
+1,9,16,4,would have been taking
+1,10,1,4,see
+1,10,2,4,will see
+1,10,3,4,saw
+1,10,4,4,would see
+1,10,5,4,are seeing
+1,10,6,4,will be seeing
+1,10,7,4,were seeing
+1,10,8,4,would be seeing
+1,10,9,4,have seen
+1,10,10,4,will have seen
+1,10,11,4,had seen
+1,10,12,4,would have seen
+1,10,13,4,have been seeing
+1,10,14,4,will have been seeing
+1,10,15,4,had been seeing
+1,10,16,4,would have been seeing
+1,11,1,4,come
+1,11,2,4,will come
+1,11,3,4,came
+1,11,4,4,would come
+1,11,5,4,are coming
+1,11,6,4,will be coming
+1,11,7,4,were coming
+1,11,8,4,would be coming
+1,11,9,4,have come
+1,11,10,4,will have come
+1,11,11,4,had come
+1,11,12,4,would have come
+1,11,13,4,have been coming
+1,11,14,4,will have been coming
+1,11,15,4,had been coming
+1,11,16,4,would have been coming
+1,12,1,4,think
+1,12,2,4,will think
+1,12,3,4,thought
+1,12,4,4,would think
+1,12,5,4,are thinking
+1,12,6,4,will be thinking
+1,12,7,4,were thinking
+1,12,8,4,would be thinking
+1,12,9,4,have thought
+1,12,10,4,will have thought
+1,12,11,4,had thought
+1,12,12,4,would have thought
+1,12,13,4,have been thinking
+1,12,14,4,will have been thinking
+1,12,15,4,had been thinking
+1,12,16,4,would have been thinking
+1,13,1,4,look
+1,13,2,4,will look
+1,13,3,4,looked
+1,13,4,4,would look
+1,13,5,4,are looking
+1,13,6,4,will be looking
+1,13,7,4,were looking
+1,13,8,4,would be looking
+1,13,9,4,have looked
+1,13,10,4,will have looked
+1,13,11,4,had looked
+1,13,12,4,would have looked
+1,13,13,4,have been looking
+1,13,14,4,will have been looking
+1,13,15,4,had been looking
+1,13,16,4,would have been looking
+1,14,1,4,want
+1,14,2,4,will want
+1,14,3,4,wanted
+1,14,4,4,would want
+1,14,5,4,are wanting
+1,14,6,4,will be wanting
+1,14,7,4,were wanting
+1,14,8,4,would be wanting
+1,14,9,4,have wanted
+1,14,10,4,will have wanted
+1,14,11,4,had wanted
+1,14,12,4,would have wanted
+1,14,13,4,have been wanting
+1,14,14,4,will have been wanting
+1,14,15,4,had been wanting
+1,14,16,4,would have been wanting
+1,15,1,4,give
+1,15,2,4,will give
+1,15,3,4,gave
+1,15,4,4,would give
+1,15,5,4,are giving
+1,15,6,4,will be giving
+1,15,7,4,were giving
+1,15,8,4,would be giving
+1,15,9,4,have given
+1,15,10,4,will have given
+1,15,11,4,had given
+1,15,12,4,would have given
+1,15,13,4,have been giving
+1,15,14,4,will have been giving
+1,15,15,4,had been giving
+1,15,16,4,would have been giving
+1,16,1,4,use
+1,16,2,4,will use
+1,16,3,4,used
+1,16,4,4,would use
+1,16,5,4,are using
+1,16,6,4,will be using
+1,16,7,4,were using
+1,16,8,4,would be using
+1,16,9,4,have used
+1,16,10,4,will have used
+1,16,11,4,had used
+1,16,12,4,would have used
+1,16,13,4,have been using
+1,16,14,4,will have been using
+1,16,15,4,had been using
+1,16,16,4,would have been using
+1,17,1,4,find
+1,17,2,4,will find
+1,17,3,4,found
+1,17,4,4,would find
+1,17,5,4,are finding
+1,17,6,4,will be finding
+1,17,7,4,were finding
+1,17,8,4,would be finding
+1,17,9,4,have found
+1,17,10,4,will have found
+1,17,11,4,had found
+1,17,12,4,would have found
+1,17,13,4,have been finding
+1,17,14,4,will have been finding
+1,17,15,4,had been finding
+1,17,16,4,would have been finding
+1,18,1,4,tell
+1,18,2,4,will tell
+1,18,3,4,told
+1,18,4,4,would tell
+1,18,5,4,are telling
+1,18,6,4,will be telling
+1,18,7,4,were telling
+1,18,8,4,would be telling
+1,18,9,4,have told
+1,18,10,4,will have told
+1,18,11,4,had told
+1,18,12,4,would have told
+1,18,13,4,have been telling
+1,18,14,4,will have been telling
+1,18,15,4,had been telling
+1,18,16,4,would have been telling
+1,19,1,4,ask
+1,19,2,4,will ask
+1,19,3,4,asked
+1,19,4,4,would ask
+1,19,5,4,are asking
+1,19,6,4,will be asking
+1,19,7,4,were asking
+1,19,8,4,would be asking
+1,19,9,4,have asked
+1,19,10,4,will have asked
+1,19,11,4,had asked
+1,19,12,4,would have asked
+1,19,13,4,have been asking
+1,19,14,4,will have been asking
+1,19,15,4,had been asking
+1,19,16,4,would have been asking
+1,20,1,4,work
+1,20,2,4,will work
+1,20,3,4,worked
+1,20,4,4,would work
+1,20,5,4,are working
+1,20,6,4,will be working
+1,20,7,4,were working
+1,20,8,4,would be working
+1,20,9,4,have worked
+1,20,10,4,will have worked
+1,20,11,4,had worked
+1,20,12,4,would have worked
+1,20,13,4,have been working
+1,20,14,4,will have been working
+1,20,15,4,had been working
+1,20,16,4,would have been working
+1,21,1,4,seem
+1,21,2,4,will seem
+1,21,3,4,seemed
+1,21,4,4,would seem
+1,21,5,4,are seeming
+1,21,6,4,will be seeming
+1,21,7,4,were seeming
+1,21,8,4,would be seeming
+1,21,9,4,have seemed
+1,21,10,4,will have seemed
+1,21,11,4,had seemed
+1,21,12,4,would have seemed
+1,21,13,4,have been seeming
+1,21,14,4,will have been seeming
+1,21,15,4,had been seeming
+1,21,16,4,would have been seeming
+1,22,1,4,feel
+1,22,2,4,will feel
+1,22,3,4,felt
+1,22,4,4,would feel
+1,22,5,4,are feeling
+1,22,6,4,will be feeling
+1,22,7,4,were feeling
+1,22,8,4,would be feeling
+1,22,9,4,have felt
+1,22,10,4,will have felt
+1,22,11,4,had felt
+1,22,12,4,would have felt
+1,22,13,4,have been feeling
+1,22,14,4,will have been feeling
+1,22,15,4,had been feeling
+1,22,16,4,would have been feeling
+1,23,1,4,try
+1,23,2,4,will try
+1,23,3,4,tried
+1,23,4,4,would try
+1,23,5,4,are trying
+1,23,6,4,will be trying
+1,23,7,4,were trying
+1,23,8,4,would be trying
+1,23,9,4,have tried
+1,23,10,4,will have tried
+1,23,11,4,had tried
+1,23,12,4,would have tried
+1,23,13,4,have been trying
+1,23,14,4,will have been trying
+1,23,15,4,had been trying
+1,23,16,4,would have been trying
+1,24,1,4,leave
+1,24,2,4,will leave
+1,24,3,4,left
+1,24,4,4,would leave
+1,24,5,4,are leaving
+1,24,6,4,will be leaving
+1,24,7,4,were leaving
+1,24,8,4,would be leaving
+1,24,9,4,have left
+1,24,10,4,will have left
+1,24,11,4,had left
+1,24,12,4,would have left
+1,24,13,4,have been leaving
+1,24,14,4,will have been leaving
+1,24,15,4,had been leaving
+1,24,16,4,would have been leaving
+1,25,1,4,call
+1,25,2,4,will call
+1,25,3,4,called
+1,25,4,4,would call
+1,25,5,4,are calling
+1,25,6,4,will be calling
+1,25,7,4,were calling
+1,25,8,4,would be calling
+1,25,9,4,have called
+1,25,10,4,will have called
+1,25,11,4,had called
+1,25,12,4,would have called
+1,25,13,4,have been calling
+1,25,14,4,will have been calling
+1,25,15,4,had been calling
+1,25,16,4,would have been calling
+1,1,1,5,are
+1,1,2,5,will be
+1,1,3,5,was
+1,1,4,5,would be
+1,1,5,5,are being
+1,1,6,5,will be being
+1,1,7,5,were being
+1,1,8,5,would be being
+1,1,9,5,have been
+1,1,10,5,will have been
+1,1,11,5,had been
+1,1,12,5,would have been
+1,1,13,5,have been being
+1,1,14,5,will have been being
+1,1,15,5,had been being
+1,1,16,5,would have been being
+1,2,1,5,have
+1,2,2,5,will have
+1,2,3,5,had
+1,2,4,5,would have
+1,2,5,5,are having
+1,2,6,5,will be having
+1,2,7,5,were having
+1,2,8,5,would be having
+1,2,9,5,have had
+1,2,10,5,will have had
+1,2,11,5,had had
+1,2,12,5,would have had
+1,2,13,5,have been having
+1,2,14,5,will have been having
+1,2,15,5,had been having
+1,2,16,5,would have been having
+1,3,1,5,do
+1,3,2,5,will do
+1,3,3,5,did
+1,3,4,5,would do
+1,3,5,5,are doing
+1,3,6,5,will be doing
+1,3,7,5,were doing
+1,3,8,5,would be doing
+1,3,9,5,have done
+1,3,10,5,will have done
+1,3,11,5,had done
+1,3,12,5,would have done
+1,3,13,5,have been doing
+1,3,14,5,will have been doing
+1,3,15,5,had been doing
+1,3,16,5,would have been doing
+1,4,1,5,say
+1,4,2,5,will say
+1,4,3,5,said
+1,4,4,5,would say
+1,4,5,5,are saying
+1,4,6,5,will be saying
+1,4,7,5,were saying
+1,4,8,5,would be saying
+1,4,9,5,have said
+1,4,10,5,will have said
+1,4,11,5,had said
+1,4,12,5,would have said
+1,4,13,5,have been saying
+1,4,14,5,will have been saying
+1,4,15,5,had been saying
+1,4,16,5,would have been saying
+1,5,1,5,get
+1,5,2,5,will get
+1,5,3,5,got
+1,5,4,5,would get
+1,5,5,5,are getting
+1,5,6,5,will be getting
+1,5,7,5,were getting
+1,5,8,5,would be getting
+1,5,9,5,have got
+1,5,10,5,will have got
+1,5,11,5,had got
+1,5,12,5,would have got
+1,5,13,5,have been getting
+1,5,14,5,will have been getting
+1,5,15,5,had been getting
+1,5,16,5,would have been getting
+1,6,1,5,make
+1,6,2,5,will make
+1,6,3,5,made
+1,6,4,5,would make
+1,6,5,5,are making
+1,6,6,5,will be making
+1,6,7,5,were making
+1,6,8,5,would be making
+1,6,9,5,have made
+1,6,10,5,will have made
+1,6,11,5,had made
+1,6,12,5,would have made
+1,6,13,5,have been making
+1,6,14,5,will have been making
+1,6,15,5,had been making
+1,6,16,5,would have been making
+1,7,1,5,go
+1,7,2,5,will go
+1,7,3,5,went
+1,7,4,5,would go
+1,7,5,5,are going
+1,7,6,5,will be going
+1,7,7,5,were going
+1,7,8,5,would be going
+1,7,9,5,have gone
+1,7,10,5,will have gone
+1,7,11,5,had gone
+1,7,12,5,would have gone
+1,7,13,5,have been going
+1,7,14,5,will have been going
+1,7,15,5,had been going
+1,7,16,5,would have been going
+1,8,1,5,know
+1,8,2,5,will know
+1,8,3,5,knew
+1,8,4,5,would know
+1,8,5,5,are knowing
+1,8,6,5,will be knowing
+1,8,7,5,were knowing
+1,8,8,5,would be knowing
+1,8,9,5,have known
+1,8,10,5,will have known
+1,8,11,5,had known
+1,8,12,5,would have known
+1,8,13,5,have been knowing
+1,8,14,5,will have been knowing
+1,8,15,5,had been knowing
+1,8,16,5,would have been knowing
+1,9,1,5,take
+1,9,2,5,will take
+1,9,3,5,took
+1,9,4,5,would take
+1,9,5,5,are taking
+1,9,6,5,will be taking
+1,9,7,5,were taking
+1,9,8,5,would be taking
+1,9,9,5,have taken
+1,9,10,5,will have taken
+1,9,11,5,had taken
+1,9,12,5,would have taken
+1,9,13,5,have been taking
+1,9,14,5,will have been taking
+1,9,15,5,had been taking
+1,9,16,5,would have been taking
+1,10,1,5,see
+1,10,2,5,will see
+1,10,3,5,saw
+1,10,4,5,would see
+1,10,5,5,are seeing
+1,10,6,5,will be seeing
+1,10,7,5,were seeing
+1,10,8,5,would be seeing
+1,10,9,5,have seen
+1,10,10,5,will have seen
+1,10,11,5,had seen
+1,10,12,5,would have seen
+1,10,13,5,have been seeing
+1,10,14,5,will have been seeing
+1,10,15,5,had been seeing
+1,10,16,5,would have been seeing
+1,11,1,5,come
+1,11,2,5,will come
+1,11,3,5,came
+1,11,4,5,would come
+1,11,5,5,are coming
+1,11,6,5,will be coming
+1,11,7,5,were coming
+1,11,8,5,would be coming
+1,11,9,5,have come
+1,11,10,5,will have come
+1,11,11,5,had come
+1,11,12,5,would have come
+1,11,13,5,have been coming
+1,11,14,5,will have been coming
+1,11,15,5,had been coming
+1,11,16,5,would have been coming
+1,12,1,5,think
+1,12,2,5,will think
+1,12,3,5,thought
+1,12,4,5,would think
+1,12,5,5,are thinking
+1,12,6,5,will be thinking
+1,12,7,5,were thinking
+1,12,8,5,would be thinking
+1,12,9,5,have thought
+1,12,10,5,will have thought
+1,12,11,5,had thought
+1,12,12,5,would have thought
+1,12,13,5,have been thinking
+1,12,14,5,will have been thinking
+1,12,15,5,had been thinking
+1,12,16,5,would have been thinking
+1,13,1,5,look
+1,13,2,5,will look
+1,13,3,5,looked
+1,13,4,5,would look
+1,13,5,5,are looking
+1,13,6,5,will be looking
+1,13,7,5,were looking
+1,13,8,5,would be looking
+1,13,9,5,have looked
+1,13,10,5,will have looked
+1,13,11,5,had looked
+1,13,12,5,would have looked
+1,13,13,5,have been looking
+1,13,14,5,will have been looking
+1,13,15,5,had been looking
+1,13,16,5,would have been looking
+1,14,1,5,want
+1,14,2,5,will want
+1,14,3,5,wanted
+1,14,4,5,would want
+1,14,5,5,are wanting
+1,14,6,5,will be wanting
+1,14,7,5,were wanting
+1,14,8,5,would be wanting
+1,14,9,5,have wanted
+1,14,10,5,will have wanted
+1,14,11,5,had wanted
+1,14,12,5,would have wanted
+1,14,13,5,have been wanting
+1,14,14,5,will have been wanting
+1,14,15,5,had been wanting
+1,14,16,5,would have been wanting
+1,15,1,5,give
+1,15,2,5,will give
+1,15,3,5,gave
+1,15,4,5,would give
+1,15,5,5,are giving
+1,15,6,5,will be giving
+1,15,7,5,were giving
+1,15,8,5,would be giving
+1,15,9,5,have given
+1,15,10,5,will have given
+1,15,11,5,had given
+1,15,12,5,would have given
+1,15,13,5,have been giving
+1,15,14,5,will have been giving
+1,15,15,5,had been giving
+1,15,16,5,would have been giving
+1,16,1,5,use
+1,16,2,5,will use
+1,16,3,5,used
+1,16,4,5,would use
+1,16,5,5,are using
+1,16,6,5,will be using
+1,16,7,5,were using
+1,16,8,5,would be using
+1,16,9,5,have used
+1,16,10,5,will have used
+1,16,11,5,had used
+1,16,12,5,would have used
+1,16,13,5,have been using
+1,16,14,5,will have been using
+1,16,15,5,had been using
+1,16,16,5,would have been using
+1,17,1,5,find
+1,17,2,5,will find
+1,17,3,5,found
+1,17,4,5,would find
+1,17,5,5,are finding
+1,17,6,5,will be finding
+1,17,7,5,were finding
+1,17,8,5,would be finding
+1,17,9,5,have found
+1,17,10,5,will have found
+1,17,11,5,had found
+1,17,12,5,would have found
+1,17,13,5,have been finding
+1,17,14,5,will have been finding
+1,17,15,5,had been finding
+1,17,16,5,would have been finding
+1,18,1,5,tell
+1,18,2,5,will tell
+1,18,3,5,told
+1,18,4,5,would tell
+1,18,5,5,are telling
+1,18,6,5,will be telling
+1,18,7,5,were telling
+1,18,8,5,would be telling
+1,18,9,5,have told
+1,18,10,5,will have told
+1,18,11,5,had told
+1,18,12,5,would have told
+1,18,13,5,have been telling
+1,18,14,5,will have been telling
+1,18,15,5,had been telling
+1,18,16,5,would have been telling
+1,19,1,5,ask
+1,19,2,5,will ask
+1,19,3,5,asked
+1,19,4,5,would ask
+1,19,5,5,are asking
+1,19,6,5,will be asking
+1,19,7,5,were asking
+1,19,8,5,would be asking
+1,19,9,5,have asked
+1,19,10,5,will have asked
+1,19,11,5,had asked
+1,19,12,5,would have asked
+1,19,13,5,have been asking
+1,19,14,5,will have been asking
+1,19,15,5,had been asking
+1,19,16,5,would have been asking
+1,20,1,5,work
+1,20,2,5,will work
+1,20,3,5,worked
+1,20,4,5,would work
+1,20,5,5,are working
+1,20,6,5,will be working
+1,20,7,5,were working
+1,20,8,5,would be working
+1,20,9,5,have worked
+1,20,10,5,will have worked
+1,20,11,5,had worked
+1,20,12,5,would have worked
+1,20,13,5,have been working
+1,20,14,5,will have been working
+1,20,15,5,had been working
+1,20,16,5,would have been working
+1,21,1,5,seem
+1,21,2,5,will seem
+1,21,3,5,seemed
+1,21,4,5,would seem
+1,21,5,5,are seeming
+1,21,6,5,will be seeming
+1,21,7,5,were seeming
+1,21,8,5,would be seeming
+1,21,9,5,have seemed
+1,21,10,5,will have seemed
+1,21,11,5,had seemed
+1,21,12,5,would have seemed
+1,21,13,5,have been seeming
+1,21,14,5,will have been seeming
+1,21,15,5,had been seeming
+1,21,16,5,would have been seeming
+1,22,1,5,feel
+1,22,2,5,will feel
+1,22,3,5,felt
+1,22,4,5,would feel
+1,22,5,5,are feeling
+1,22,6,5,will be feeling
+1,22,7,5,were feeling
+1,22,8,5,would be feeling
+1,22,9,5,have felt
+1,22,10,5,will have felt
+1,22,11,5,had felt
+1,22,12,5,would have felt
+1,22,13,5,have been feeling
+1,22,14,5,will have been feeling
+1,22,15,5,had been feeling
+1,22,16,5,would have been feeling
+1,23,1,5,try
+1,23,2,5,will try
+1,23,3,5,tried
+1,23,4,5,would try
+1,23,5,5,are trying
+1,23,6,5,will be trying
+1,23,7,5,were trying
+1,23,8,5,would be trying
+1,23,9,5,have tried
+1,23,10,5,will have tried
+1,23,11,5,had tried
+1,23,12,5,would have tried
+1,23,13,5,have been trying
+1,23,14,5,will have been trying
+1,23,15,5,had been trying
+1,23,16,5,would have been trying
+1,24,1,5,leave
+1,24,2,5,will leave
+1,24,3,5,left
+1,24,4,5,would leave
+1,24,5,5,are leaving
+1,24,6,5,will be leaving
+1,24,7,5,were leaving
+1,24,8,5,would be leaving
+1,24,9,5,have left
+1,24,10,5,will have left
+1,24,11,5,had left
+1,24,12,5,would have left
+1,24,13,5,have been leaving
+1,24,14,5,will have been leaving
+1,24,15,5,had been leaving
+1,24,16,5,would have been leaving
+1,25,1,5,call
+1,25,2,5,will call
+1,25,3,5,called
+1,25,4,5,would call
+1,25,5,5,are calling
+1,25,6,5,will be calling
+1,25,7,5,were calling
+1,25,8,5,would be calling
+1,25,9,5,have called
+1,25,10,5,will have called
+1,25,11,5,had called
+1,25,12,5,would have called
+1,25,13,5,have been calling
+1,25,14,5,will have been calling
+1,25,15,5,had been calling
+1,25,16,5,would have been calling
+1,1,1,6,are
+1,1,2,6,will be
+1,1,3,6,was
+1,1,4,6,would be
+1,1,5,6,are being
+1,1,6,6,will be being
+1,1,7,6,were being
+1,1,8,6,would be being
+1,1,9,6,have been
+1,1,10,6,will have been
+1,1,11,6,had been
+1,1,12,6,would have been
+1,1,13,6,have been being
+1,1,14,6,will have been being
+1,1,15,6,had been being
+1,1,16,6,would have been being
+1,2,1,6,have
+1,2,2,6,will have
+1,2,3,6,had
+1,2,4,6,would have
+1,2,5,6,are having
+1,2,6,6,will be having
+1,2,7,6,were having
+1,2,8,6,would be having
+1,2,9,6,have had
+1,2,10,6,will have had
+1,2,11,6,had had
+1,2,12,6,would have had
+1,2,13,6,have been having
+1,2,14,6,will have been having
+1,2,15,6,had been having
+1,2,16,6,would have been having
+1,3,1,6,do
+1,3,2,6,will do
+1,3,3,6,did
+1,3,4,6,would do
+1,3,5,6,are doing
+1,3,6,6,will be doing
+1,3,7,6,were doing
+1,3,8,6,would be doing
+1,3,9,6,have done
+1,3,10,6,will have done
+1,3,11,6,had done
+1,3,12,6,would have done
+1,3,13,6,have been doing
+1,3,14,6,will have been doing
+1,3,15,6,had been doing
+1,3,16,6,would have been doing
+1,4,1,6,say
+1,4,2,6,will say
+1,4,3,6,said
+1,4,4,6,would say
+1,4,5,6,are saying
+1,4,6,6,will be saying
+1,4,7,6,were saying
+1,4,8,6,would be saying
+1,4,9,6,have said
+1,4,10,6,will have said
+1,4,11,6,had said
+1,4,12,6,would have said
+1,4,13,6,have been saying
+1,4,14,6,will have been saying
+1,4,15,6,had been saying
+1,4,16,6,would have been saying
+1,5,1,6,get
+1,5,2,6,will get
+1,5,3,6,got
+1,5,4,6,would get
+1,5,5,6,are getting
+1,5,6,6,will be getting
+1,5,7,6,were getting
+1,5,8,6,would be getting
+1,5,9,6,have got
+1,5,10,6,will have got
+1,5,11,6,had got
+1,5,12,6,would have got
+1,5,13,6,have been getting
+1,5,14,6,will have been getting
+1,5,15,6,had been getting
+1,5,16,6,would have been getting
+1,6,1,6,make
+1,6,2,6,will make
+1,6,3,6,made
+1,6,4,6,would make
+1,6,5,6,are making
+1,6,6,6,will be making
+1,6,7,6,were making
+1,6,8,6,would be making
+1,6,9,6,have made
+1,6,10,6,will have made
+1,6,11,6,had made
+1,6,12,6,would have made
+1,6,13,6,have been making
+1,6,14,6,will have been making
+1,6,15,6,had been making
+1,6,16,6,would have been making
+1,7,1,6,go
+1,7,2,6,will go
+1,7,3,6,went
+1,7,4,6,would go
+1,7,5,6,are going
+1,7,6,6,will be going
+1,7,7,6,were going
+1,7,8,6,would be going
+1,7,9,6,have gone
+1,7,10,6,will have gone
+1,7,11,6,had gone
+1,7,12,6,would have gone
+1,7,13,6,have been going
+1,7,14,6,will have been going
+1,7,15,6,had been going
+1,7,16,6,would have been going
+1,8,1,6,know
+1,8,2,6,will know
+1,8,3,6,knew
+1,8,4,6,would know
+1,8,5,6,are knowing
+1,8,6,6,will be knowing
+1,8,7,6,were knowing
+1,8,8,6,would be knowing
+1,8,9,6,have known
+1,8,10,6,will have known
+1,8,11,6,had known
+1,8,12,6,would have known
+1,8,13,6,have been knowing
+1,8,14,6,will have been knowing
+1,8,15,6,had been knowing
+1,8,16,6,would have been knowing
+1,9,1,6,take
+1,9,2,6,will take
+1,9,3,6,took
+1,9,4,6,would take
+1,9,5,6,are taking
+1,9,6,6,will be taking
+1,9,7,6,were taking
+1,9,8,6,would be taking
+1,9,9,6,have taken
+1,9,10,6,will have taken
+1,9,11,6,had taken
+1,9,12,6,would have taken
+1,9,13,6,have been taking
+1,9,14,6,will have been taking
+1,9,15,6,had been taking
+1,9,16,6,would have been taking
+1,10,1,6,see
+1,10,2,6,will see
+1,10,3,6,saw
+1,10,4,6,would see
+1,10,5,6,are seeing
+1,10,6,6,will be seeing
+1,10,7,6,were seeing
+1,10,8,6,would be seeing
+1,10,9,6,have seen
+1,10,10,6,will have seen
+1,10,11,6,had seen
+1,10,12,6,would have seen
+1,10,13,6,have been seeing
+1,10,14,6,will have been seeing
+1,10,15,6,had been seeing
+1,10,16,6,would have been seeing
+1,11,1,6,come
+1,11,2,6,will come
+1,11,3,6,came
+1,11,4,6,would come
+1,11,5,6,are coming
+1,11,6,6,will be coming
+1,11,7,6,were coming
+1,11,8,6,would be coming
+1,11,9,6,have come
+1,11,10,6,will have come
+1,11,11,6,had come
+1,11,12,6,would have come
+1,11,13,6,have been coming
+1,11,14,6,will have been coming
+1,11,15,6,had been coming
+1,11,16,6,would have been coming
+1,12,1,6,think
+1,12,2,6,will think
+1,12,3,6,thought
+1,12,4,6,would think
+1,12,5,6,are thinking
+1,12,6,6,will be thinking
+1,12,7,6,were thinking
+1,12,8,6,would be thinking
+1,12,9,6,have thought
+1,12,10,6,will have thought
+1,12,11,6,had thought
+1,12,12,6,would have thought
+1,12,13,6,have been thinking
+1,12,14,6,will have been thinking
+1,12,15,6,had been thinking
+1,12,16,6,would have been thinking
+1,13,1,6,look
+1,13,2,6,will look
+1,13,3,6,looked
+1,13,4,6,would look
+1,13,5,6,are looking
+1,13,6,6,will be looking
+1,13,7,6,were looking
+1,13,8,6,would be looking
+1,13,9,6,have looked
+1,13,10,6,will have looked
+1,13,11,6,had looked
+1,13,12,6,would have looked
+1,13,13,6,have been looking
+1,13,14,6,will have been looking
+1,13,15,6,had been looking
+1,13,16,6,would have been looking
+1,14,1,6,want
+1,14,2,6,will want
+1,14,3,6,wanted
+1,14,4,6,would want
+1,14,5,6,are wanting
+1,14,6,6,will be wanting
+1,14,7,6,were wanting
+1,14,8,6,would be wanting
+1,14,9,6,have wanted
+1,14,10,6,will have wanted
+1,14,11,6,had wanted
+1,14,12,6,would have wanted
+1,14,13,6,have been wanting
+1,14,14,6,will have been wanting
+1,14,15,6,had been wanting
+1,14,16,6,would have been wanting
+1,15,1,6,give
+1,15,2,6,will give
+1,15,3,6,gave
+1,15,4,6,would give
+1,15,5,6,are giving
+1,15,6,6,will be giving
+1,15,7,6,were giving
+1,15,8,6,would be giving
+1,15,9,6,have given
+1,15,10,6,will have given
+1,15,11,6,had given
+1,15,12,6,would have given
+1,15,13,6,have been giving
+1,15,14,6,will have been giving
+1,15,15,6,had been giving
+1,15,16,6,would have been giving
+1,16,1,6,use
+1,16,2,6,will use
+1,16,3,6,used
+1,16,4,6,would use
+1,16,5,6,are using
+1,16,6,6,will be using
+1,16,7,6,were using
+1,16,8,6,would be using
+1,16,9,6,have used
+1,16,10,6,will have used
+1,16,11,6,had used
+1,16,12,6,would have used
+1,16,13,6,have been using
+1,16,14,6,will have been using
+1,16,15,6,they had been using
+1,16,16,6,would have been using
+1,17,1,6,find
+1,17,2,6,will find
+1,17,3,6,found
+1,17,4,6,would find
+1,17,5,6,are finding
+1,17,6,6,will be finding
+1,17,7,6,were finding
+1,17,8,6,would be finding
+1,17,9,6,have found
+1,17,10,6,will have found
+1,17,11,6,had found
+1,17,12,6,would have found
+1,17,13,6,have been finding
+1,17,14,6,will have been finding
+1,17,15,6,had been finding
+1,17,16,6,would have been finding
+1,18,1,6,tell
+1,18,2,6,will tell
+1,18,3,6,told
+1,18,4,6,would tell
+1,18,5,6,are telling
+1,18,6,6,will be telling
+1,18,7,6,were telling
+1,18,8,6,would be telling
+1,18,9,6,have told
+1,18,10,6,will have told
+1,18,11,6,had told
+1,18,12,6,would have told
+1,18,13,6,have been telling
+1,18,14,6,will have been telling
+1,18,15,6,had been telling
+1,18,16,6,would have been telling
+1,19,1,6,ask
+1,19,2,6,will ask
+1,19,3,6,asked
+1,19,4,6,would ask
+1,19,5,6,are asking
+1,19,6,6,will be asking
+1,19,7,6,were asking
+1,19,8,6,would be asking
+1,19,9,6,have asked
+1,19,10,6,will have asked
+1,19,11,6,had asked
+1,19,12,6,would have asked
+1,19,13,6,have been asking
+1,19,14,6,will have been asking
+1,19,15,6,had been asking
+1,19,16,6,would have been asking
+1,20,1,6,work
+1,20,2,6,will work
+1,20,3,6,worked
+1,20,4,6,would work
+1,20,5,6,are working
+1,20,6,6,will be working
+1,20,7,6,were working
+1,20,8,6,would be working
+1,20,9,6,have worked
+1,20,10,6,will have worked
+1,20,11,6,had worked
+1,20,12,6,would have worked
+1,20,13,6,have been working
+1,20,14,6,will have been working
+1,20,15,6,had been working
+1,20,16,6,would have been working
+1,21,1,6,seem
+1,21,2,6,will seem
+1,21,3,6,seemed
+1,21,4,6,would seem
+1,21,5,6,are seeming
+1,21,6,6,will be seeming
+1,21,7,6,were seeming
+1,21,8,6,would be seeming
+1,21,9,6,have seemed
+1,21,10,6,will have seemed
+1,21,11,6,had seemed
+1,21,12,6,would have seemed
+1,21,13,6,have been seeming
+1,21,14,6,will have been seeming
+1,21,15,6,had been seeming
+1,21,16,6,would have been seeming
+1,22,1,6,feel
+1,22,2,6,will feel
+1,22,3,6,felt
+1,22,4,6,would feel
+1,22,5,6,are feeling
+1,22,6,6,will be feeling
+1,22,7,6,were feeling
+1,22,8,6,would be feeling
+1,22,9,6,have felt
+1,22,10,6,will have felt
+1,22,11,6,had felt
+1,22,12,6,would have felt
+1,22,13,6,have been feeling
+1,22,14,6,will have been feeling
+1,22,15,6,had been feeling
+1,22,16,6,would have been feeling
+1,23,1,6,try
+1,23,2,6,will try
+1,23,3,6,tried
+1,23,4,6,would try
+1,23,5,6,are trying
+1,23,6,6,will be trying
+1,23,7,6,were trying
+1,23,8,6,would be trying
+1,23,9,6,have tried
+1,23,10,6,will have tried
+1,23,11,6,had tried
+1,23,12,6,would have tried
+1,23,13,6,have been trying
+1,23,14,6,will have been trying
+1,23,15,6,had been trying
+1,23,16,6,would have been trying
+1,24,1,6,leave
+1,24,2,6,will leave
+1,24,3,6,left
+1,24,4,6,would leave
+1,24,5,6,are leaving
+1,24,6,6,will be leaving
+1,24,7,6,were leaving
+1,24,8,6,would be leaving
+1,24,9,6,have left
+1,24,10,6,will have left
+1,24,11,6,had left
+1,24,12,6,would have left
+1,24,13,6,have been leaving
+1,24,14,6,will have been leaving
+1,24,15,6,had been leaving
+1,24,16,6,would have been leaving
+1,25,1,6,call
+1,25,2,6,will call
+1,25,3,6,called
+1,25,4,6,would call
+1,25,5,6,are calling
+1,25,6,6,will be calling
+1,25,7,6,were calling
+1,25,8,6,would be calling
+1,25,9,6,have called
+1,25,10,6,will have called
+1,25,11,6,had called
+1,25,12,6,would have called
+1,25,13,6,have been calling
+1,25,14,6,will have been calling
+1,25,15,6,had been calling
+1,25,16,6,would have been calling

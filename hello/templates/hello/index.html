@@ -1,0 +1,36 @@
+{% extends "hello/layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+<!-- Load global static files -->
+{% load static %}
+
+{% block main %}
+
+<div class="banner">
+    <div class="banner-inner">
+        <h1>LangLab</h1>
+        <h2>Learning foreign languages, made easy.</h2>
+    </div>
+</div>
+
+<section id="home-section">
+    <h2>About</h2>
+    <p>
+        LangLab is a website where you can practice the conjugations of the 25 most common verbs in a target language.
+        This allows for <strong>practical</strong> and <strong>efficient</strong> language learning, 
+        giving you a <strong>well founded</strong> basis to immediately comprehend and converse. 
+        With the use of frequency analysis, your practice will be <strong>direct</strong>, studying the most 
+        <strong>useful</strong> pillars of a foreign language.
+    </p>
+
+    <p>
+        In addition, helpful <a href="{% url 'resources' %}">resources</a> have been provided to supplement 
+        your learning process. Finding content you enjoy serves as an amazing springboard to learning a 
+        foreign language. These resources will provide a great start to any language learner's journey.
+    </p>
+</section>
+
+{% endblock %}

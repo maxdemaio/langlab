@@ -1,0 +1,164 @@
+{% extends "hello/layout.html" %}
+
+{% block title %}
+    Resources
+{% endblock %}
+
+<!-- Load global static files -->
+{% load static %}
+
+{% block main %}
+
+<section id="resources-section">
+
+    <h1>Resources</h1>
+    <p>
+        This is our starter kit page to learn the foreign language of your choosing. Both educational and interesting 
+        content resources been added for each language. It is encouraged to venture out and find your own niche 
+        of content you enjoy in your target language. This way, you can enjoy the process as you make progress!
+    </p>
+    <p>
+        Have a suggestion to add? Feel free to reach out in the
+        <a href="{% url 'contact' %}">Contact/Contribute</a> section with any new language or resource ideas.
+    </p>
+   
+
+    <div class="container">
+
+        <div class="card-group">
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        English
+                        <img height=40 src="{% static 'images/english-1.png' %}" alt="">
+                        <img height=40 src="{% static 'images/english-2.png' %}" alt="">
+                    </h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    <a href="{% url 'tenses' 1 %}" class="btn btn-primary">Conjugation Practice</a>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">YouTube Channels</h4>
+                    <p class="card-text">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.youtube.com/user/bbclearningenglish">BBC Learning English</a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        French
+                        <img height=40 src="{% static 'images/french-1.png' %}" alt="">
+                        <img height=40 src="{% static 'images/french-2.png' %}" alt="">
+                    </h3>
+                    
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">YouTube Channels</h4>
+                    <p class="card-text">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.youtube.com/channel/UCoUWq2QawqdC3-nRXKk-JUw">Easy
+                                French</a></li>
+                        <li class="list-group-item"><a href="https://www.youtube.com/channel/UCCCPCZNChQdGa9EkATeye4g">France
+                                24</a></li>
+                        <li class="list-group-item"><a href="https://www.youtube.com/user/CommeUneFrancaiseTV">Comme une
+                                Française</a></li>
+                        <li class="list-group-item"><a href="https://www.youtube.com/user/madmoiZelledotcom">madmoiZelle</a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Italian
+                        <img height=40 src="{% static 'images/italian-1.png' %}" alt="">
+                        <img height=40 src="{% static 'images/italian-2.png' %}" alt="">
+                    </h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">YouTube Channels</h4>
+                    <p class="card-text">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.youtube.com/user/lucreziaoddone">Learn Italian with
+                                Lucrezia</a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Hindi
+                        <img height=40 src="{% static 'images/hindi-1.png' %}" alt="">
+                        <img height=40 src="{% static 'images/hindi-2.png' %}" alt="">
+                    </h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">YouTube Channels</h4>
+                    <p class="card-text">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.youtube.com/channel/UCl5dXugC3XZeDVsDkTaWJ4g">MOUNTAIN TREKKER</a>
+                        </li>
+                    </ul>
+                    </p>
+
+                    <h4 class="card-title">Websites</h4>
+                    <p class="card-text">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.mindurhindi.com/">Mind ur Hindi</a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Korean
+                        <img height=40 src="{% static 'images/korean-1.png' %}" alt="">
+                        <img height=40 src="{% static 'images/korean-2.png' %}" alt="">
+                    </h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">YouTube Channels</h4>
+                    <p class="card-text">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.youtube.com/channel/UCcA88_Z7wQWMoQ9bKwjuanA">Korean Unnie 한국언니</a></li>
+                    </ul>
+                    </p>
+
+                    <h4 class="card-title">Websites</h4>
+                    <p class="card-text">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.howtostudykorean.com/">HowtoStudyKorean</a>
+                        </li>
+                    </ul>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+{% endblock %}

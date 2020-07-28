@@ -1,0 +1,49 @@
+{% extends "conjugate/layout.html" %}
+
+{% block title %}
+Conjugations
+{% endblock %}
+
+<!-- Load global static files -->
+{% load static %}
+
+{% block main %}
+
+<section id="conj-content">
+    <h1>Conjugation Practice</h1>
+
+    {% if messages %}
+    {% for message in messages %}
+
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+        <div class="alert alert-success" role="alert">
+            {{ message }}
+        </div>
+        {% endif %}
+
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+        <div class="alert alert-danger" role="alert">
+            {{ message }}
+        </div>
+        {% endif %}
+
+    {% endfor %}
+    {% endif %}
+
+    <ul id="conj-prompt" class="list-group list-group-flush">
+        <li class="list-group-item">Tense: {{ randTense }}</li>
+        <li class="list-group-item">Subject: {{ randSubj }}</li>
+        <li class="list-group-item">Verb: {{ randVerb }}</li>
+    </ul>
+
+    <form id="conj-form" action="{% url 'conjugations' lang_id %}" method="post" autocomplete="off">
+        {% csrf_token %}
+        {{ form }}
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+
+    <div class="back-link"> 
+        <a href="{% url 'tenses' lang_id %}">Back to select tenses</a>
+    </div>
+</section>
+{% endblock %}

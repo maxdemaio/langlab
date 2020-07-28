@@ -1,0 +1,45 @@
+{% extends "conjugate/layout.html" %}
+
+{% block title %}
+Conjugate
+{% endblock %}
+
+<!-- Load global static files -->
+{% load static %}
+
+{% block main %}
+
+<!-- Note: the url references the route in views.py -->
+<!-- Country Packs for icons found at: https://www.flaticon.com/authors/freepik-->
+    <h1>Languages</h1>
+    <p>Start practicing verb conjugations by choosing one of the available languages from the list below.</p>
+
+    <div class="list-group">
+        {% for lang in languages %}
+        <a href="{% url 'tenses' lang.id %}" class="language list-group-item list-group-item-action">
+            {% if lang.lang == "English" %}
+            <span class="lang-name">{{ lang.lang }}</span>
+            <img height=40 src="{% static 'images/english-1.png' %}" alt="">
+            <img height=40 src="{% static 'images/english-2.png' %}" alt="">
+            {% endif %}
+        </a>
+    
+        <a href="#" class="language list-group-item list-group-item-action">
+            <span class="lang-name">French</span>
+            <img height=40 src="{% static 'images/french-1.png' %}" alt="">
+            <img height=40 src="{% static 'images/french-2.png' %}" alt="">
+            <span class="text-muted">(Coming Soon)</span>
+        </a>
+        
+        <a href="#" class="language list-group-item list-group-item-action">
+            <span class="lang-name">Italian</span>
+            <img height=40 src="{% static 'images/italian-1.png' %}" alt="">
+            <img height=40 src="{% static 'images/italian-2.png' %}" alt="">
+            <span class="text-muted">(Coming Soon)</span>
+        </a>
+
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "conjugate/layout.html" %}
+
+{% block title %}
+Tenses
+{% endblock %}
+
+<!-- Load global static files -->
+{% load static %}
+
+{% block main %}
+
+<h1>{{ language}} Tenses</h1>
+<p>
+    Choose one or more tenses to practice from the list below. With your chosen tenses, you will be 
+    quizzed with random subjects and verbs in the target language of your choice.
+</p>
+<form action="{% url 'conjugations' lang_id %}" method="get">
+    {{ form.as_p }}
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>
+
+<div class="back-link">
+    <a href="{% url 'conjugate' %}">Back to select language</a>
+</div>
+
+{% endblock %}

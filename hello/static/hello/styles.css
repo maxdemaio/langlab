@@ -1,0 +1,71 @@
+/* Global application footer */
+#footer {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: white;
+}
+
+#footer div {
+    padding: 5px;
+}
+
+
+/* Hello application main content */
+p {
+    font-size: 20px;
+}
+
+
+/* Hello application banner */
+.banner {
+    /* Image source: https://unsplash.com/photos/SYTO3xs06fU */
+    background-image: url("./lang_banner3.png");
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner > .banner-inner {
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* Hello application home page */
+#home-section {
+    padding: 20px 40px 40px 40px;
+}
+
+
+/* Hello application resources page */
+#resources-section {
+    padding: 10px;
+}
+
+#resources-section li {
+    font-size: 20px;
+}
+
+
+/* Hello application references page */
+#references-section {
+    padding: 10px;
+}
+
+/* Hello application contact page */
+#contact-section {
+    padding: 10px;
+}
