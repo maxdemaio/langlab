@@ -1,5 +1,5 @@
 # langlab - An open source language learning website
-![Photo of the website](/staticfiles/images/read_me.png)
+![Photo of the website](/staticfiles/images/website_picture.png)
 
 Welcome to LangLab! It's an open-source foreign language learning website for language learners of all levels.
 
