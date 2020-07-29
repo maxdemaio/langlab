@@ -59,3 +59,9 @@ p, li {
 #conj-form {
     font-size: 20px;
 }
+
+
+/* Conjugation application Tense select all styling */
+#select-all {
+    margin-bottom: 10px;
+}
