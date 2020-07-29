@@ -4,6 +4,10 @@
 Tenses
 {% endblock %}
 
+{% block header %}
+<script src="/static/conjugate/scripts.js"></script>
+{% endblock %}
+
 <!-- Load global static files -->
 {% load static %}
 
@@ -14,7 +18,10 @@ Tenses
     Choose one or more tenses to practice from the list below. With your chosen tenses, you will be 
     quizzed with random subjects and verbs in the target language of your choice.
 </p>
-<form action="{% url 'conjugations' lang_id %}" method="get">
+
+<button class="btn btn-light" id="select-all">Select All</button>
+
+<form id="tenses-form" action="{% url 'conjugations' lang_id %}" method="get">
     {{ form.as_p }}
     <input class="btn btn-primary" type="submit" value="Submit">
 </form>
