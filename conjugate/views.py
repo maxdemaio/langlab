@@ -9,7 +9,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from .models import Conjugation, Language, Subject, Tense, Verb
 
 
-# Django form classes to be added to templates
+# Django form classes for tenses and conjugations
 class TenseForm(forms.Form):
     tenses = forms.MultipleChoiceField(
         widget=forms.SelectMultiple(
@@ -56,13 +56,16 @@ def tenses(request, lang_id):
             "lang_id": lang_id
         })
     else:
-        # TODO return 404 language not found
-        return HttpResponse("Error")
+        # Return 404 language not found
+        return render(request, "conjugate/error.html", {
+            "error": "404",
+            "message": "Language not found,"
+        })
 
 
 def conjugations(request, lang_id):
     """ Conjugate Conjugations """
-
+    # POST request
     if request.method == "POST":
         form = ConjugationForm(request.POST)
 
@@ -75,8 +78,6 @@ def conjugations(request, lang_id):
             your_conjugation = form.cleaned_data["your_conjugation"]
             correctConj = form.cleaned_data["correctConj"]
             
-            print(your_conjugation)
-
             # Verb conjugated correctly
             if your_conjugation == correctConj:
                 # Recreate query string
@@ -91,7 +92,7 @@ def conjugations(request, lang_id):
                 # Set error message
                 messages.error(request, f"Incorrect! The correct conjugation was '{correctConj}'.")
                 
-                # Recreate conjugation form and maintain chose tense IDs
+                # Recreate conjugation form and maintain chosen tense IDs
                 tenseList = list(map(int, tenseIDs))
                 form = ConjugationForm(initial={'tenseIDs': tenseList, 'randTense': randTense,
                     'randSubj': randSubj, 'randVerb': randVerb, 'correctConj': correctConj}, auto_id=False)
@@ -107,22 +108,47 @@ def conjugations(request, lang_id):
                 
         # Form is not valid
         else:
-            # TODO
-            # Return an error relating to the form
-            return HttpResponse("Error")
+            # Return an error template on form submission
+            return render(request, "conjugate/error.html", {
+                "error": "Form",
+                "message": "The form submission was not valid,"
+            })
+    # GET request
     else:
         # Check if tense IDs are valid integers
         try:
             tenseList = list(map(int, request.GET.getlist("tenses")))
         except:
-            # TODO return tense ID error
-            return HttpResponse("Error")
+            # Return tense ID error
+            return render(request, "conjugate/error.html", {
+                "error": "Tense ID",
+                "message": "The tense IDs were not valid integers,"
+            })
 
         # Check if tense IDs exist
         if not tenseList:
-            # TODO return tense ID error
-            return HttpResponse("Error")
+            # Return tense ID error
+            return render(request, "conjugate/error.html", {
+                "error": "Tense ID",
+                "message": "No tense IDs were provided,"
+            })
 
+        # Check if tense IDs match for the language
+        # Obtain tenses for the language
+        validTenses = Tense.objects.filter(lang_id=lang_id).values()
+        validTensesLen = len(validTenses)
+
+        minTenseID = validTenses[0]["id"]
+        maxTenseID = validTenses[validTensesLen - 1]["id"]
+
+        for x in tenseList:
+            if x < minTenseID or x > maxTenseID:
+                # Return tense ID error
+                return render(request, "conjugate/error.html", {
+                    "error": "Tense ID",
+                    "message": "Tense IDs do not match up with the chosen language,"
+                })
+            
         # Obtain subjects for the language
         subjectList = Subject.objects.filter(lang_id=lang_id).values()
 
@@ -130,7 +156,7 @@ def conjugations(request, lang_id):
         randSubjPos = randint(0, len(subjectList) - 1)
         randSubj = subjectList[randSubjPos]["subject"]
         randSubjID = subjectList[randSubjPos]["id"]
-
+        
         # Select a random tense from tenses chosen
         randTenseID = choice(tenseList)
         randTense = Tense.objects.get(id=randTenseID)

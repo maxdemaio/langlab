@@ -1,0 +1,15 @@
+{% extends "conjugate/layout.html" %}
+
+{% block title %}
+Error
+{% endblock %}
+
+<!-- Load global static files -->
+{% load static %}
+
+{% block main %}
+<h1>{{ error }} Error</h1>
+<p>
+    {{ message }} please return back <a href="/">home</a>.
+</p>
+{% endblock %}
