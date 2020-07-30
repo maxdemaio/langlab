@@ -24,10 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-
-# Check if production
+# Check if production environment or not
 try:
-    HEROKU = (os.environ['ENV'] == 'heroku')
+    HEROKU = (os.environ.get('ENV') == 'heroku')
 except:
     HEROKU = False
 DEBUG = not HEROKU
@@ -95,17 +94,17 @@ try:
     # Use flag ‘ — keepdb’. This ensures that Django does not attempt to create a new database
     # (CMD: python manage.py test --keepdb)
     if 'test' in sys.argv:
-        #Configuration for test database
+        #Configuration for postgres test database
         DATABASES = {
             'default': {
                 'ENGINE': 'django.db.backends.postgresql',
-                'NAME': os.getenv("TEST_DB_NAME"),
-                'HOST': os.getenv("TEST_DB_HOST"),
-                'USER': os.getenv("TEST_DB_USER"),
-                'PASSWORD': os.getenv("TEST_DB_PASSWORD"),
+                'NAME': os.environ.get("TEST_DB_NAME"),
+                'HOST': os.environ.get("TEST_DB_HOST"),
+                'USER': os.environ.get("TEST_DB_USER"),
+                'PASSWORD': os.environ.get("TEST_DB_PASSWORD"),
                 'PORT': '5432',
                 'TEST': {
-                    'NAME': os.getenv("TEST_DB_NAME"),
+                    'NAME': os.environ.get("TEST_DB_NAME"),
                 }
             }
         }
@@ -113,10 +112,10 @@ try:
         DATABASES = {
             'default': {
                 'ENGINE': 'django.db.backends.postgresql',
-                'NAME': os.getenv("DB_NAME"),
-                'HOST': os.getenv("DB_HOST"),
-                'USER': os.getenv("DB_USER"),
-                'PASSWORD': os.getenv("DB_PASSWORD"),
+                'NAME': os.environ.get("DB_NAME"),
+                'HOST': os.environ.get("DB_HOST"),
+                'USER': os.environ.get("DB_USER"),
+                'PASSWORD': os.environ.get("DB_PASSWORD"),
                 'PORT': '5432',
             }
         }
