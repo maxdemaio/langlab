@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os, sys
 from . import config
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -93,31 +94,22 @@ try:
     # If we are testing, use the testing database
     # Use flag ‘ — keepdb’. This ensures that Django does not attempt to create a new database
     # (CMD: python manage.py test --keepdb)
+
     if 'test' in sys.argv:
         #Configuration for postgres test database
         DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.postgresql',
-                'NAME': os.environ.get("TEST_DB_NAME"),
-                'HOST': os.environ.get("TEST_DB_HOST"),
-                'USER': os.environ.get("TEST_DB_USER"),
-                'PASSWORD': os.environ.get("TEST_DB_PASSWORD"),
-                'PORT': '5432',
-                'TEST': {
-                    'NAME': os.environ.get("TEST_DB_NAME"),
-                }
-            }
+            'default': dj_database_url.config(
+                conn_max_age=600, ssl_require=HEROKU,
+                default=os.environ['TEST_DB_URL']
+            )
         }
+        DATABASES["default"]["TEST"] = {"NAME": os.environ.get("TEST_DB_NAME")}
     else:
         DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.postgresql',
-                'NAME': os.environ.get("DB_NAME"),
-                'HOST': os.environ.get("DB_HOST"),
-                'USER': os.environ.get("DB_USER"),
-                'PASSWORD': os.environ.get("DB_PASSWORD"),
-                'PORT': '5432',
-            }
+            'default': dj_database_url.config(
+                conn_max_age=600, ssl_require=HEROKU,
+                default=os.environ['DB_URL']
+            )
         }
 except:
     # If the environment variable for Postgresql is not set, default to sqlite3
