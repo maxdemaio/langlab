@@ -1,10 +1,10 @@
 # langlab - An open source language learning website
-![Photo of the website](/staticfiles/images/website_picture.png)
+![Photo of the website](/static/images/website_picture.png)
 
 #### Welcome to LangLab! It's an open-source foreign language learning website for language learners of all levels.
 
 ### What is this website for?
-It's for practicing the conjugations 25 of the most common verbs of a target language and finding great resources you enjoy to supplement learning.
+It's for practicing the conjugations of the 25 most common verbs of a target language and finding great resources you enjoy to supplement learning.
 
 ### Why did you create this website?
 I wanted to make a website where language learners (mostly beginner-intermediate level) can practice their skills and have a home base for resources.

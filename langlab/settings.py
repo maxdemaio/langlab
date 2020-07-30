@@ -88,19 +88,20 @@ WSGI_APPLICATION = 'langlab.wsgi.application'
 
 # Resource for testing database config
 # https://medium.com/analytics-vidhya/provisioning-a-test-postgresql-database-on-heroku-for-your-django-app-febb2b5d3b29
+# Resource for database config
+# https://www.youtube.com/watch?v=t-n7PpIVE5w
 
 try:
     # Updates Database Configuration
     # If we are testing, use the testing database
     # Use flag ‘ — keepdb’. This ensures that Django does not attempt to create a new database
     # (CMD: python manage.py test --keepdb)
-
     if 'test' in sys.argv:
         #Configuration for postgres test database
         DATABASES = {
             'default': dj_database_url.config(
                 conn_max_age=600, ssl_require=HEROKU,
-                default=os.environ['TEST_DB_URL']
+                default=os.environ['HEROKU_POSTGRESQL_AQUA_URL']
             )
         }
         DATABASES["default"]["TEST"] = {"NAME": os.environ.get("TEST_DB_NAME")}
@@ -108,7 +109,7 @@ try:
         DATABASES = {
             'default': dj_database_url.config(
                 conn_max_age=600, ssl_require=HEROKU,
-                default=os.environ['DB_URL']
+                default=os.environ['DATABASE_URL']
             )
         }
 except:
