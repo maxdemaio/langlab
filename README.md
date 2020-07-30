@@ -20,11 +20,11 @@ I used Python (Django) for the backend, PostgreSQL for database management, Boot
 
 ### 1. Install the requirements within `requirements.txt` using pip
 
-After cloning the repository onto your machine, navigate to the project's directory. For this step, the ideal setup would be creating and activating a virtual environment (venv), then installing all the requirements.
+After cloning the repository onto your machine, navigate to the project's directory. For this step, the ideal setup would be creating and activating a virtual environment (venv) then installing all the requirements.
 
 #### A) Venv setup
 
-Run the following commands
+Run the following commands:
 1) Create a venv with the name "langlab_ENV"
 2) Activate the venv
 
