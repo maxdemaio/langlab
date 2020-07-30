@@ -175,8 +175,12 @@ def conjugations(request, lang_id):
         form = ConjugationForm(initial={'tenseIDs': tenseList, 'randTense': randTense,
             'randSubj': randSubj, 'randVerb': randVerb, 'correctConj': correctConj}, auto_id=False)
 
+        # Obtain language
+        language = Language.objects.get(pk=lang_id)
+
         return render(request, "conjugate/conjugations.html", {
             "form": form,
+            "language": language,
             "correctConj": correctConj,
             "lang_id": lang_id,
             "randTense": randTense,

@@ -7,10 +7,15 @@ Conjugations
 <!-- Load global static files -->
 {% load static %}
 
+{% block header %}
+<meta name="description" content="A free and open source foreign language learning website. Practice conjugating 
+the 25 most common verbs in every tense." />
+{% endblock %}
+
+
 {% block main %}
 
-
-<h1>Conjugation Practice</h1>
+<h1>{{ language }} Conjugation Practice</h1>
 
 <section id="conj-content">
     {% if messages %}
