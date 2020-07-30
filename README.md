@@ -42,13 +42,13 @@ pip install -r requirements.txt
 ### 2. Migrate and run your server
 
 1) Set yourself a `SECRET_KEY` in `settings.py`
-2) Make the migrations to setup the tables in your SQLite database
+2) Make the migrations to setup the tables in your SQLite database:
 
 ```console
 python manage.py migrate 
 ```
 
-3) Import all of the conjugate app data
+3) Import all of the conjugate app data:
 
 ```console
 python manage.py shell
@@ -57,7 +57,7 @@ conj_db_import.en_import_all()
 exit()
 ```
 
-4) Start up the app
+4) Start up the app:
 
 ```console
 python manage.py runserver
