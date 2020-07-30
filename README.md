@@ -36,15 +36,30 @@ langlab_ENV\scripts\activate.bat
 Now, from the project directory you can run:
 
 ```console
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 2. Migrate and run your server
 
-Make the migrations to make changes to your SQLite database, and start up the app:
+1) Set yourself a `SECRET_KEY` in `settings.py`
+2) Make the migrations to setup the tables in your SQLite database
 
 ```console
 python manage.py migrate 
+```
+
+3) Import all of the conjugate app data
+
+```console
+python manage.py shell
+from conjugate import conj_db_import
+conj_db_import.en_import_all()
+exit()
+```
+
+4) Start up the app
+
+```console
 python manage.py runserver
 ```
 
