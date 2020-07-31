@@ -53,7 +53,7 @@ python manage.py migrate
 ```console
 python manage.py shell
 from conjugate import conj_db_import
-conj_db_import.en_import_all()
+conj_db_import.lang_import_all()
 exit()
 ```
 

@@ -50,7 +50,7 @@ def en_conj_import():
                   row["subject_id"], row["conj"], "Saved")
 
 # Insert all English data to tables in one go
-def en_import_all():
+def lang_import_all():
     en_language_import()
     en_verb_import()
     en_tense_import()
