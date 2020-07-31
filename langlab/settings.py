@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'langlab.wsgi.application'
 # Resource for database config
 # https://www.youtube.com/watch?v=t-n7PpIVE5w
 
-try:
+if HEROKU:
     # Updates Database Configuration
     # If we are testing, use the testing database
     # Use flag ‘ — keepdb’. This ensures that Django does not attempt to create a new database
@@ -112,7 +112,7 @@ try:
                 default=os.environ['DATABASE_URL']
             )
         }
-except:
+else:
     # If the environment variable for Postgresql is not set, default to sqlite3
     DATABASES = {
         'default': {
