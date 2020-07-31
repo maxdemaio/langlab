@@ -79,7 +79,7 @@ def conjugations(request, lang_id):
             correctConj = form.cleaned_data["correctConj"]
             
             # Verb conjugated correctly
-            if your_conjugation == correctConj:
+            if your_conjugation.lower() == correctConj:
                 # Recreate query string
                 tenseIDs = "?tenses=" + "&tenses=".join(tenseIDs)
 
