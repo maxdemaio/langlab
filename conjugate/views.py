@@ -96,10 +96,14 @@ def conjugations(request, lang_id):
                 tenseList = list(map(int, tenseIDs))
                 form = ConjugationForm(initial={'tenseIDs': tenseList, 'randTense': randTense,
                     'randSubj': randSubj, 'randVerb': randVerb, 'correctConj': correctConj}, auto_id=False)
-                
+
+                # Obtain language
+                language = Language.objects.get(pk=lang_id)
+
                 return render(request, "conjugate/conjugations.html", {
                     "form": form,
                     "correctConj": correctConj,
+                    "language": language,
                     "lang_id": lang_id,
                     "randTense": randTense,
                     "randSubj": randSubj,
