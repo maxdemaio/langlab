@@ -23,6 +23,7 @@ class ConjugateTestCase(TestCase):
         ourConjugation = Conjugation.objects.create(id=2, lang_id=2, verb_id=2, tense_id=2,
                                                     subject_id=2, conj="mange")
 
+    # Test if number of languages in DB is correct
     def test_language_count(self):
         languages = Language.objects.all()
         self.assertEqual(languages.count(), 2)
