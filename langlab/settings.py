@@ -97,7 +97,7 @@ if HEROKU:
     # Use flag ‘ — keepdb’. This ensures that Django does not attempt to create a new database
     # (CMD: python manage.py test --keepdb)
     if 'test' in sys.argv:
-        #Configuration for postgres test database
+        # Configuration for postgres test database
         DATABASES = {
             'default': dj_database_url.config(
                 conn_max_age=600, ssl_require=HEROKU,
@@ -106,6 +106,7 @@ if HEROKU:
         }
         DATABASES["default"]["TEST"] = {"NAME": os.environ.get("TEST_DB_NAME")}
     else:
+        # Configuration for postrgres production database
         DATABASES = {
             'default': dj_database_url.config(
                 conn_max_age=600, ssl_require=HEROKU,
