@@ -12,6 +12,9 @@ def resources(request):
     """ Resources Page """
     return render(request, "hello/resources.html")
 
+def roadmap(request):
+    """ Roadmap Page """
+    return render(request, "hello/roadmap.html")
 
 def references(request):
     """ References Page"""
