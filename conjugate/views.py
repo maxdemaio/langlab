@@ -90,7 +90,7 @@ def conjugations(request, lang_id):
             # Verb conjugated incorrectly
             else:
                 # Set error message
-                messages.error(request, f"Incorrect! The correct conjugation was '{correctConj}'.")
+                messages.error(request, f"The correct conjugation was '{correctConj}'.")
                 
                 # Recreate conjugation form and maintain chosen tense IDs
                 tenseList = list(map(int, tenseIDs))
